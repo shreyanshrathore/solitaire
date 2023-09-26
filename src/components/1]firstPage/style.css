@@ -1,0 +1,15 @@
+/* CustomCarousel.css */
+
+/* Change the color of the inactive dots */
+.ant-carousel .slick-dots li {
+    background-color: #9d0a17 !important;
+    position: relative;
+    bottom: 50px;
+    /* width: 160px; */
+  }
+  
+  /* Change the color of the active/focused dot */
+  .ant-carousel .slick-dots li.slick-active button::before {
+    background-color: rgb(55, 147, 55) !important;
+  }
+  
