@@ -7,6 +7,7 @@ import Credai from '../components/1]firstPage/Credai'
 import OurOfferings from '../components/1]firstPage/OurOfferings'
 import FeaturedProject from '../components/1]firstPage/FeaturedProject'
 import OurBiggest from '../components/1]firstPage/OurBiggest'
+import OurCustomer from '../components/1]firstPage/OurCustomer'
 
 const LandingPage = () => {
   return (
@@ -19,6 +20,7 @@ const LandingPage = () => {
         <OurOfferings/>
         <FeaturedProject/>
         <OurBiggest/>
+        <OurCustomer/>
     </div>
   )
 }

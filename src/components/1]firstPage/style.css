@@ -12,4 +12,18 @@
   .ant-carousel .slick-dots li.slick-active button::before {
     background-color: rgb(55, 147, 55) !important;
   }
+
+
+  .ant-carousel {
+    .slick-next {
+      &::before {
+        content: '';
+      }
+    }
+    .slick-prev { 
+      &::before {
+        content: '';
+      }
+    }
+  }
   
