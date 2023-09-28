@@ -29,6 +29,7 @@ const data = [
       "With 21+ years of successful premium projects development, We have succeeded in carving out a niche for ourself which is parellel to none in the city. Every one of our project elivers the highhest level of design and craftmanship, upcompromising quality, and customer priority services - putting Solitaire group in the league of the finest...",
   },
 ];
+import '../Button.css'
 
 const Credai = () => {
   const ref = useRef();
@@ -79,7 +80,7 @@ const Slide = ({prop}) => {
           alt=""
         />
         <img
-          className="h-[620px] absolute bottom-[25px] right-0"
+          className="h-[620px] absolute bottom-[25px] right-0 custom-scale-credai-bg"
           src={cover}
           alt=""
         />

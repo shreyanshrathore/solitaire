@@ -46,7 +46,7 @@ const FeaturedProject = () => {
     img: img5,
     heading: "Eiffel City",
     address: "Kanadia Road, Indore",
-    id:5
+    id: 5,
   };
   return (
     <div className="bg-[#ED6664] py-12">
@@ -54,7 +54,9 @@ const FeaturedProject = () => {
         <h1 className="font-base text-6xl text-white font-semibold italic">
           Featured project
         </h1>
-        <Button props={buttonData} />
+        <div>
+          <Button props={buttonData} />
+        </div>
       </div>
 
       <div className="flex h-max justify-center gap-8 mt-12">
@@ -79,8 +81,17 @@ const FeaturedProject = () => {
 const Card = ({ data }) => {
   return (
     <div>
-      <div className={`w-96 ${data.id? "h-[880px]":"h-[420px]"} bg-white p-3`}>
-        <img src={data.img} alt="" />
+      <div
+        className={`w-96 ${data.id ? "h-[880px]" : "h-[420px]"} bg-white p-3 `}
+      >
+        <div className="overflow-hidden">
+          <img
+            src={data.img}
+            alt=""
+            className="hover:scale-[1.20] transition-transform transform origin-center duration-300"
+          />
+        </div>
+
         <h1 className="font-base text-3xl text-generic font-semibold italic">
           {data.heading}
         </h1>

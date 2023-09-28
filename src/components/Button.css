@@ -1,0 +1,27 @@
+.custom-scale-bg {
+  transform-origin: right bottom;
+  transform: scaleX(1) scaleY(1);
+
+  transition: transform 0.3s ease;
+}
+
+.custom-scale-bg:hover {
+  transform: scaleX(1.06) scaleY(1.18)
+}
+.custom-scale-bg:hover + .custom-scale {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+
+.custom-scale-credai-bg{
+  transform-origin: right;
+  transform: scaleX(1) scaleY(1);
+
+  transition: transform 0.3s ease;
+}
+
+.custom-scale-credai-bg:hover {
+  transform: scaleX(1.06) scaleY(1.08)
+}
+

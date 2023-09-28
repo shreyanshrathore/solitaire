@@ -8,6 +8,8 @@ import OurOfferings from '../components/1]firstPage/OurOfferings'
 import FeaturedProject from '../components/1]firstPage/FeaturedProject'
 import OurBiggest from '../components/1]firstPage/OurBiggest'
 import OurCustomer from '../components/1]firstPage/OurCustomer'
+import WantMore from '../components/1]firstPage/WantMore'
+import Footer from '../components/1]firstPage/Footer'
 
 const LandingPage = () => {
   return (
@@ -21,6 +23,8 @@ const LandingPage = () => {
         <FeaturedProject/>
         <OurBiggest/>
         <OurCustomer/>
+        <WantMore/>
+        <Footer/>
     </div>
   )
 }

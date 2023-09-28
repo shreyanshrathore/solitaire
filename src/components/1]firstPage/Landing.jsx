@@ -48,7 +48,7 @@ const Landing = () => {
         <div>
           <Slide1 />
         </div>
-        <div>
+        {/* <div>
           <Slide2 />
         </div>
         <div>
@@ -56,7 +56,7 @@ const Landing = () => {
         </div>
         <div>
           <Slide2 />
-        </div>
+        </div> */}
       </Carousel>
       <div className="w-44 flex justify-between absolute bottom-[-220px] right-[44%]">
         <button onClick={() => ref.current.prev()}>
@@ -73,12 +73,12 @@ const Landing = () => {
 const Slide1 = () => {
   return (
     <div className="flex justify-between items-center">
-      <div className="space-y-6 ml-44 mb-44">
-        <div className="font-base font-semibold text-5xl">For Us</div>
-        <div className="text-7xl font-base text-generic font-bold">
+      <div className="space-y-6 md:ml-44 mb-12 flex-col  justify-center mt-12">
+        <div className="font-base font-semibold text-3xl lg:text-5xl text-center md:text-left">For Us</div>
+        <div className="text-5xl md:text-5xl lg:text-7xl font-base text-generic font-bold text-center">
           Work is worship
         </div>
-        <div>
+        <div className="flex justify-center md:justify-normal">
           <img src={sign} alt="" />
         </div>
       </div>
@@ -107,7 +107,7 @@ const Slide2 = () => {
             The first major international smart city coming
           </div>
           <div className="relative cursor-pointer mt-12">
-            <button className="bg-generic text-white text-xl font-base w-36 h-12">
+            <button className="bg-generic text-white text-xl font-base w-36 h-12 hover:scale-95 transition-transform">
               View Project
             </button>
             <div className="w-36 h-12 border-2 border-generic absolute top-1 left-1"></div>
