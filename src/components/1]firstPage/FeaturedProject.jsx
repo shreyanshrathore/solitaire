@@ -50,17 +50,17 @@ const FeaturedProject = () => {
   };
   return (
     <div className="bg-[#ED6664] py-12">
-      <div className="flex w-full  px-40 justify-between py-6">
-        <h1 className="font-base text-6xl text-white font-semibold italic">
-          Featured project
+      <div className="flex flex-wrap w-full  md:px-40 justify-between py-6 space-y-4 px-2">
+        <h1 className="font-base text-5xl md:text-6xl text-white font-semibold italic text-center md:text-left md:w-auto w-full">
+          Featured project 
         </h1>
-        <div>
+        <div className="w-full flex justify-center md:justify-normal md:w-auto">
           <Button props={buttonData} />
         </div>
       </div>
 
-      <div className="flex h-max justify-center gap-8 mt-12">
-        <div className="flex flex-col  justify-between">
+      <div className="flex flex-wrap h-max justify-center gap-8 mt-12">
+        <div className="flex flex-col  justify-between space-y-6 ">
           <Card data={topLeftData} />
           <Card data={topRightData} />
         </div>
@@ -69,7 +69,7 @@ const FeaturedProject = () => {
           <Card data={centreData} />
         </div>
 
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between space-y-6">
           <Card data={bottomLeftData} />
           <Card data={bottomRightData} />
         </div>

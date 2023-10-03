@@ -56,26 +56,27 @@ const ThreeCards = () => {
   ];
 
   return (
-    <div className="flex justify-between p-20 ">
-      {data.map((item, index) => (
-        <div key={index}>
-          <Card
-            img={item.img}
-            heading={item.heading}
-            headingColor={item.headingColor}
-            content={item.content}
-            button={item.buttonData}
-          />
-        </div>
-      ))}
+<div className="flex justify-center md:p-20 flex-wrap p-6 space-y-6 md:space-y-0 w-full gap-8">
+  {data.map((item, index) => (
+    <div key={index}>
+      <Card
+        img={item.img}
+        heading={item.heading}
+        headingColor={item.headingColor}
+        content={item.content}
+        button={item.buttonData}
+      />
     </div>
+  ))}
+</div>
+
   );
 };
 
 const Card = ({ img, heading, headingColor, content, button }) => {
   return (
     <div>
-      <div className="relative w-[400px] h-[490px] p-4 border border-1 border-gray-100 shadow-md space-y-3 flex-col justify-center items-center">
+      <div className="max-w-[400px] relative md:w-[400px] md:h-[490px] p-4 border border-1 border-gray-100 shadow-md space-y-3 flex-col justify-center items-center">
         <div className="flex justify-center">
           <img src={img} alt="" />
         </div>
@@ -85,7 +86,7 @@ const Card = ({ img, heading, headingColor, content, button }) => {
           >
             {heading}
           </h1>
-          <p className="text-center text-gray-500 text-xl">{content}</p>
+          <p className="text-center text-gray-500 md:text-xl text-lg">{content}</p>
         </div>
         <div className="flex justify-center">
           <Button props={button} />

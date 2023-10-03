@@ -26,7 +26,8 @@
     "heroicons": "^2.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-heroicons": "^0.0.7"
+    "react-heroicons": "^0.0.7",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

@@ -43,22 +43,30 @@ const right = (
 const Landing = () => {
   const ref = useRef();
   return (
-    <div className=" h-auto">
-      <Carousel autoplay dotPosition="bottom" dots={"red"} ref={ref}>
-        <div>
-          <Slide1 />
-        </div>
-        {/* <div>
+    <div className="h-auto">
+      <div className="hidden lg:block">
+        <Carousel autoplay dotPosition="bottom" dots={"red"} ref={ref}>
+          <div>
+            <Slide1 />
+          </div>
+          <div>
+            <Slide2 />
+          </div>
+          {/* <div>
           <Slide2 />
-        </div>
-        <div>
+          </div>
+          <div>
           <Slide2 />
-        </div>
-        <div>
+          </div>
+          <div>
           <Slide2 />
         </div> */}
-      </Carousel>
-      <div className="w-44 flex justify-between absolute bottom-[-220px] right-[44%]">
+        </Carousel>
+      </div>
+      <div className="block lg:hidden">
+        <Slide1 />
+      </div>
+      <div className="w-44 justify-between absolute bottom-[-220px] right-[44%] hidden md:flex">
         <button onClick={() => ref.current.prev()}>
           <div className="text-generic">{left}</div>
         </button>
@@ -72,9 +80,11 @@ const Landing = () => {
 
 const Slide1 = () => {
   return (
-    <div className="flex justify-between items-center">
-      <div className="space-y-6 md:ml-44 mb-12 flex-col  justify-center mt-12">
-        <div className="font-base font-semibold text-3xl lg:text-5xl text-center md:text-left">For Us</div>
+    <div className="flex flex-wrap justify-between items-center">
+      <div className="space-y-6 md:ml-44 mb-12 flex-col  justify-center mt-12 w-full md:w-auto">
+        <div className="font-base font-semibold text-3xl lg:text-5xl text-center md:text-left w-full">
+          For Us
+        </div>
         <div className="text-5xl md:text-5xl lg:text-7xl font-base text-generic font-bold text-center">
           Work is worship
         </div>

@@ -54,12 +54,12 @@ const data = [
 
 const OurOfferings = () => {
   return (
-    <div className="relative">
-      <div className="z-0">
+    <div className="relative h-auto overflow-hidden">
+      <div className="absolute z-0">
         <img className=" w-full top-0" src={background} alt="" />
       </div>
-      <div className="absolute top-0">
-        <h1 className="z-50 text-6xl font-base text-generic italic font-semibold p-12 ml-16 mt-20">
+      <div className="relative z-50">
+        <h1 className="z-50 text-5xl md:text-6xl font-base text-generic italic font-semibold p-12 md:ml-16 mt-20">
           Our Offerings
         </h1>
         <div className="flex justify-center items-center ">
@@ -78,12 +78,16 @@ const OurOfferings = () => {
 
 const Card = ({ props }) => {
   return (
-    <div className="w-[400px]  h-80 p-4 space-y-4 ">
-      <img src={props.img} alt="" />
-      <h1 className="font-base text-generic italic font-semibold text-3xl">
-        {props.heading}
-      </h1>
-      <p className="font-base text-xl text-gray-600 w-80">{props.content}</p>
+    <div className="w-auto md:w-[400px]  h-80 p-4 space-y-4 ">
+      <div>
+        <div className="flex justify-center md:justify-normal">
+          <img src={props.img} alt="" />
+        </div>
+        <h1 className="font-base text-generic italic font-semibold text-3xl text-center md:text-left">
+          {props.heading}
+        </h1>
+      </div>
+      <p className="font-base text-xl text-gray-600 w-80 text-center md:text-left">{props.content}</p>
     </div>
   );
 };

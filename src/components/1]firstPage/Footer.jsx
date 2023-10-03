@@ -26,29 +26,29 @@ const Footer = () => {
   return (
     <div className="bg-[#FFF9F9] py-12">
       <div className="flex justify-center items-center">
-        <div className="w-[80%] flex justify-between">
-          <div className="space-y-4">
-            <h1 className="font-base font-semibold text-3xl">
-              DON'T MISS OUT!
-            </h1>
-            <Input placeholder="Email Address" className="h-12 w-60" />
-            <Button props={buttonData} />
+        <div className="w-[80%] flex md:justify-between justify-center space-y-8 flex-wrap">
+          <div className="hidden md:block">
+            <Miss />
           </div>
 
           <div className="flex items-center">
             <img className="h-20" src={logo} alt="" />
           </div>
 
-          <div className="flex-col">
-            <div className="flex space-x-4 text-right justify-end">
+          <div className="md:hidden">
+            <Miss/>
+          </div>
+
+          <div className="flex-col ">
+            <div className="flex space-x-4 text-right justify-center md:justify-end">
               {icons.map((item, index) => (
                 <div>
                   <img className="h-8 text-generic" src={item} alt="" />
                 </div>
               ))}
             </div>
-            <div className="flex justify-end py-4">
-              <div className="w-64 font-base text-xl italic text-right">
+            <div className="flex md:justify-end py-4">
+              <div className="w-64 font-base text-xl italic text-center md:text-right">
                 {address}
               </div>
             </div>
@@ -57,6 +57,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    </div>
+  );
+};
+
+const Miss = () => {
+  return (
+    <div className="space-y-4">
+      <h1 className="font-base font-semibold text-3xl">DON'T MISS OUT!</h1>
+      <Input placeholder="Email Address" className="h-12 w-60" />
+      <Button props={buttonData} />
     </div>
   );
 };
