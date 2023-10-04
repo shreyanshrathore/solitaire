@@ -31,12 +31,12 @@ const WantMore = () => {
               <Input
                 placeholder="Enter your username"
                 prefix={<UserOutlined className="site-form-item-icon" />}
-                className="h-12"
+                className="h-12 rounded-sm"
               />
               <Input
                 placeholder="Enter your Email"
                 prefix={<MessageOutlined className="site-form-item-icon" />}
-                className="h-12"
+                className="h-12 rounded-sm"
               />
             </div>
 
@@ -44,12 +44,12 @@ const WantMore = () => {
               <Input
                 placeholder="Enter your Phone number"
                 prefix={<PhoneOutlined className="site-form-item-icon" />}
-                className="h-12"
+                className="h-12 rounded-sm"
               />
               <Input
                 placeholder="Properties"
                 prefix={<HomeOutlined className="site-form-item-icon" />}
-                className="h-12"
+                className="h-12 rounded-sm"
               />
             </div>
           </div>

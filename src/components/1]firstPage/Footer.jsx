@@ -65,7 +65,7 @@ const Miss = () => {
   return (
     <div className="space-y-4">
       <h1 className="font-base font-semibold text-3xl">DON'T MISS OUT!</h1>
-      <Input placeholder="Email Address" className="h-12 w-60" />
+      <Input placeholder="Email Address" className="h-12 w-60 rounded-sm" />
       <Button props={buttonData} />
     </div>
   );

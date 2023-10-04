@@ -1,0 +1,24 @@
+/* tailwind.css or your custom CSS file */
+@keyframes scrollX {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  .marqueegroup{
+    animation: scrollX 10s linear infinite;
+  }
+
+  .marquee{
+    mask-image: linear-gradient(
+        to right,
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 1) 10%,
+        hsl(0 0% 0% / 1) 90%,
+        hsl(0 0% 0% / 0)
+    );
+  }

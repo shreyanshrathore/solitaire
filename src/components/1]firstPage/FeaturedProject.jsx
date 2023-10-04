@@ -59,7 +59,7 @@ const FeaturedProject = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap h-max justify-center gap-8 mt-12">
+      <div className="flex flex-wrap h-max justify-center gap-8 mt-12 p-3">
         <div className="flex flex-col  justify-between space-y-6 ">
           <Card data={topLeftData} />
           <Card data={topRightData} />
@@ -78,11 +78,11 @@ const FeaturedProject = () => {
   );
 };
 
-const Card = ({ data }) => {
+export const Card = ({ data }) => {
   return (
     <div>
       <div
-        className={`w-96 ${data.id ? "h-[880px]" : "h-[420px]"} bg-white p-3 `}
+        className={`w-auto lg:w-96 ${data.id ? "h-[880px]" : "h-auto"} bg-white p-3 `}
       >
         <div className="overflow-hidden">
           <img

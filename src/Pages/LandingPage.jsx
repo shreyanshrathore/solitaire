@@ -14,7 +14,7 @@ import Footer from '../components/1]firstPage/Footer'
 const LandingPage = () => {
   return (
     <div>
-        <Nav/>
+        {/* <Nav/> */}
         <Landing/>
         <OurMission/>
         <ThreeCards/>
@@ -22,7 +22,7 @@ const LandingPage = () => {
         <OurOfferings/>
         <FeaturedProject/>
         <OurBiggest/>
-        {/* <OurCustomer/> */}
+        <OurCustomer/>
         <WantMore/>
         <Footer/>
     </div>

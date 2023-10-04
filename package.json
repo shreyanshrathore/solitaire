@@ -23,10 +23,12 @@
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "antd": "^5.9.2",
     "flowbite-react": "^0.6.1",
+    "fslightbox-react": "^1.7.6",
     "heroicons": "^2.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-heroicons": "^0.0.7",
+    "react-router-dom": "^6.16.0",
     "react-scroll": "^1.8.9"
   },
   "devDependencies": {

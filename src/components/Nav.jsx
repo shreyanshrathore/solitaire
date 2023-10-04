@@ -9,7 +9,8 @@ import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
@@ -23,6 +24,7 @@ const Nav = () => {
     { title: "CONTACT US", send: "contact-us" },
   ];
 
+  // mobile
   const list = () => (
     <div className="bg-white h-full">
       <Box
@@ -51,7 +53,7 @@ const Nav = () => {
                 </ListItemButton>
               </ListItem>
             ))}
-          </div> 
+          </div>
         </List>
       </Box>
     </div>
@@ -83,6 +85,18 @@ const Nav = () => {
   };
   const [currentNav, setCurrentNav] = useState(0);
   const [drop, setDrop] = useState(0);
+  const [droptwo, setDroptwo] = useState(0);
+  let timeoutId;
+  const handleMouseEnter = () => {
+    setDrop(1);
+    clearTimeout(timeoutId);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutId = setTimeout(() => {
+      setDrop(0);
+    }, 1000);
+  };
 
   return (
     <div className="">
@@ -91,25 +105,29 @@ const Nav = () => {
 
         <div className=" text-xl flex space-x-10  flex-row-reverse">
           <div className="hidden md:flex space-x-10 text-xl">
-            <div
-              className={`${navbasic} ${navColor(0)}`}
-              onClick={() => setCurrentNav(0)}
-            >
-              Home
-            </div>
-            <div
-              className={`${navbasic} ${navColor(1)}`}
-              onClick={() => setCurrentNav(1)}
-            >
-              About us
-            </div>
+            <Link to="/">
+              <div
+                className={`${navbasic} ${navColor(0)}`}
+                onClick={() => setCurrentNav(0)}
+              >
+                Home
+              </div>
+            </Link>
+            <Link to="/about-us">
+              <div
+                className={`${navbasic} ${navColor(1)}`}
+                onClick={() => setCurrentNav(1)}
+              >
+                About us
+              </div>
+            </Link>
             <div
               className={`${navbasic} flex ${navColor(2)} z-50`}
               onClick={() => navFunc()}
-              onMouseEnter={() => setDrop(1)}
-              onMouseLeave={() => setDrop(0)}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
             >
-              Projects
+              <Link to={'/allprojects'}>Projects</Link>
               <div>
                 <KeyboardArrowDownIcon />
               </div>
@@ -175,7 +193,7 @@ const Nav = () => {
 
 const Drop = () => {
   return (
-    <div className="w-full p-6 text-gray-800">
+    <div className="w-full p-6 text-gray-800 space-y-5">
       <div>All Project</div>
       <div className="flex">
         <div>Urban TownShips</div>
