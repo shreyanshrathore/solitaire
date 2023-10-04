@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         generic: '#9D0A17', // Add your custom color here
+        non: '#C31424',
         secondCard: '#279DA9',
         thirdCard: '#FFA621',
       },

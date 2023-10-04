@@ -13,6 +13,10 @@ import icon6 from "../../assets/Project/TransportIcons/6.svg";
 import icon7 from "../../assets/Project/TransportIcons/7.svg";
 import icon8 from "../../assets/Project/TransportIcons/8.svg";
 
+import amenIcon2 from "../../assets/Project/Ameneties/1.svg";
+import amenIcon1 from "../../assets/Project/Ameneties/2.svg";
+import amenIcon3 from "../../assets/Project/Ameneties/3.svg";
+
 const url =
   "https://s3-alpha-sig.figma.com/img/0aef/932c/7f4a25fcc64f70c5efdd8856948f2875?Expires=1697414400&Signature=Rll9c9RWOFIf~kfJ6MW5v2NXM3n9AWfiL0hX1LMQuVvmbkXV2KWWNgeamKJJ8SImTp2U7ozXGDD7vSsJL8kzC1JQPdkSwtUPI2r9czfqcJ~FFRBwMe~TmanDuJ5yvzD00OsTdR0gRJ8ylKFqpCJDGQsmGF~2KfC-8-h2mXuiza3I2QDQhA3LM9WQsYQuB2Y-KrTyEXyqAIR5cq5LaXq-wwgcd1qdJdRNekURy5CwZF9dS9HWikS1HIMMTRIuaz9ao4pMliIIFd2BuPWqoAQ1jESd2d3X2k1GXphd3puqhDTYueQAb2vYabSMNNvwnq9ysQ4qQiOvXRWxUo7GmpR6dw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 
@@ -32,7 +36,7 @@ const LandingCard = () => {
 
 export const Heading = ({ text }) => {
   return (
-    <h1 className="font-base text-5xl text-generic italic font-semibold flex justify-center md:block">
+    <h1 className="font-base text-5xl text-non italic font-semibold flex justify-center md:block">
       {text}
     </h1>
   );
@@ -259,12 +263,59 @@ export const Transport = () => {
   );
 };
 
-
-export const Ameneties = () =>{
-  return(
-    <div>
-      
+export const AmenitiesCard = ({ item }) => {
+  return (
+    <div className="w-[329px] h-[329px] bg-gray-100 flex justify-center items-center">
+      <div className="space-y-4">
+        <div className="flex justify-center">
+          <img className="w-32 h-32 text-gray-300" src={item.icon} alt="" />
+        </div>
+        <div className="text-center text-3xl font-base font-semibold italic text-gray-700">{item.heading}</div>
+      </div>
     </div>
-  )
-}
+  );
+};
+export const Amenities = () => {
+  const data = [
+    {
+      icon: amenIcon1,
+      heading: "Kids Play Area",
+    },
+    {
+      icon: amenIcon2,
+      heading: "24 x 7 Security",
+    },
+    {
+      icon: amenIcon3,
+      heading: "Swimming Pool",
+    },
+    {
+      icon: amenIcon1,
+      heading: "Kids Play Area",
+    },
+    {
+      icon: amenIcon2,
+      heading: "24 X 7 Security",
+    },
+  ];
+  return (
+    <div className="w-[98%]">
+      <DoubleHeading text="Amenities" />
+      <div
+        className="w-full overflow-x-scroll"
+        style={{
+          WebkitOverflowScrolling: "touch",
+          scrollbarWidth: "none",
+          "-ms-overflow-style": "none",
+        }}
+      >
+        <div className="flex gap-12 w-max  p-4">
+          {data.map((item, index) => (
+            <AmenitiesCard item={item} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 export default LandingCard;
