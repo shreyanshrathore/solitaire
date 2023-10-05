@@ -23,12 +23,16 @@ const url =
 const url2 =
   "https://s3-alpha-sig.figma.com/img/fcfa/4809/28e0199d0c0de22341c5a8bb958d1327?Expires=1697414400&Signature=ookWxB4FY7YOX~L8O3PKOVHIaQcdyF59OswxLH4QHRqQ5Ti7PvhRiO~cW~lzoxrtGgD8GQNsaSW-VA3MnQlGVtQ0llFTTe1abeibtANd9e~OV6512OqcOHZ-V3LAlDEsoA-ISzPIJaPCuXZmfzaNxpsoC0KhaPT6m-r-LYDAdWcazuzd~M~EzMDBT8kM-jjuoBb8~C5qV9v~BJv2qHpXXtKFb1D-Grl9OhhV-mqiNuseQXkYrnMXhMTV5X5~hJflX4RR5tWObhqpMCAMiaGppUfna5-N1XukoQedgAHKToQRBP2bMRgE5ebJgHRiDgWUK5k6s6A618AAaPQac6m3Sw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 const gallery = [url, url2, url, url, url, url, url];
-const LandingCard = () => {
+const LandingCard = ({ item }) => {
   return (
     <div className="relative h-auto overflow-hidden flex justify-center">
-      <img className="w-full" src={bg} alt="" />
-      <div className="absolute bottom-20 text-4xl md:text-8xl font-base italic text-white">
-        The Sapphire
+      <img
+        className="w-full min-h-[400px] md:min-h-[600px] object-cover object-center"
+        src={item && item.bg ? item.bg : url2}
+        alt=""
+      />
+      <div className="absolute bottom-20 text-6xl md:text-8xl font-base italic text-white">
+        {item && item.heading ? item.heading : "The Sapphire"}
       </div>
     </div>
   );
@@ -240,16 +244,16 @@ export const Transport = () => {
     <div>
       <DoubleHeading text="Key Transport" />
       <div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 py-8 gap-6">
           {data.map((item, index) => (
             <div className="p-2 md:p-4">
               <div className=" h-32 rounded-lg  flex items-center justify-center">
                 <div className=" gap-3 space-y-3">
                   <div className="flex justify-center ">
-                    <img src={item.icon} alt="" />
+                    <img className="h-10 md:h-auto" src={item.icon} alt="" />
                   </div>
 
-                  <div className="flex gap-2 font-base text-xl italic font-semibold">
+                  <div className="flex gap-2 font-base text-md md:text-xl italic font-semibold">
                     <div>{item.heading}</div>
                     <div>{item.value}</div>
                   </div>
@@ -265,12 +269,18 @@ export const Transport = () => {
 
 export const AmenitiesCard = ({ item }) => {
   return (
-    <div className="w-[329px] h-[329px] bg-gray-100 flex justify-center items-center">
+    <div className="w-48 h-48 md:w-[329px] md:h-[329px] bg-gray-100 flex justify-center items-center">
       <div className="space-y-4">
         <div className="flex justify-center">
-          <img className="w-32 h-32 text-gray-300" src={item.icon} alt="" />
+          <img
+            className="w-[50%] h-[50%] text-gray-300"
+            src={item.icon}
+            alt=""
+          />
         </div>
-        <div className="text-center text-3xl font-base font-semibold italic text-gray-700">{item.heading}</div>
+        <div className="text-center text-xl md:text-2xl lg:text-3xl font-base font-semibold italic text-gray-700">
+          {item.heading}
+        </div>
       </div>
     </div>
   );
@@ -309,9 +319,9 @@ export const Amenities = () => {
           "-ms-overflow-style": "none",
         }}
       >
-        <div className="flex gap-12 w-max  p-4">
+        <div className="flex gap-4 md:gap-8 lg:gap-12 w-max  p-4">
           {data.map((item, index) => (
-            <AmenitiesCard item={item} />
+            <AmenitiesCard item={item} key={index} />
           ))}
         </div>
       </div>

@@ -25,9 +25,12 @@
     "flowbite-react": "^0.6.1",
     "fslightbox-react": "^1.7.6",
     "heroicons": "^2.0.18",
+    "install": "^0.13.0",
+    "npm": "^10.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-heroicons": "^0.0.7",
+    "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "react-scroll": "^1.8.9"
   },

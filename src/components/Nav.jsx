@@ -17,9 +17,9 @@ import { Fragment, useEffect, useRef, useState } from "react";
 
 const Nav = () => {
   const links = [
-    { title: "HOME", send: "home" },
+    { title: "HOME", send: "/" },
     { title: "ABOUT US", send: "about-us" },
-    { title: "PROJECTS", send: "portfolio" },
+    { title: "PROJECTS", send: "/allprojects" },
     { title: "CAREERS", send: "careers" },
     { title: "CONTACT US", send: "contact-us" },
   ];
@@ -127,7 +127,7 @@ const Nav = () => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to={'/allprojects'}>Projects</Link>
+              <Link to={"/allprojects"}>Projects</Link>
               <div>
                 <KeyboardArrowDownIcon />
               </div>
@@ -150,18 +150,22 @@ const Nav = () => {
                 )}
               </Transition>
             </div>
-            <div
-              className={`${navbasic} ${navColor(3)}`}
-              onClick={() => setCurrentNav(3)}
-            >
-              Careers
-            </div>
-            <div
-              className={`${navbasic} ${navColor(4)}`}
-              onClick={() => setCurrentNav(4)}
-            >
-              Contact
-            </div>
+            <Link to="/careers">
+              <div
+                className={`${navbasic} ${navColor(3)}`}
+                onClick={() => setCurrentNav(3)}
+              >
+                Careers
+              </div>
+            </Link>
+            <Link to="/contact">
+              <div
+                className={`${navbasic} ${navColor(4)}`}
+                onClick={() => setCurrentNav(4)}
+              >
+                Contact
+              </div>
+            </Link>
           </div>
           {/* For mobile Drawer */}
           <div

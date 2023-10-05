@@ -16,7 +16,7 @@ const ProjectPage = () => {
     <div>
       <LandingCard />
       <div className="flex justify-center">
-        <div className="w-[83%]">
+        <div className="w-[90%] md:w-[83%]">
           <Status />
           <Overview />
           <Gallery />
@@ -26,7 +26,7 @@ const ProjectPage = () => {
         </div>
       </div>
           <WantMore/>
-          <Footer/>
+          {/* <Footer/> */}
     </div>
   );
 };

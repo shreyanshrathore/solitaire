@@ -24,7 +24,7 @@ const LandingPage = () => {
         <OurBiggest/>
         <OurCustomer/>
         <WantMore/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
