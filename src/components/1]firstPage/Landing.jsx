@@ -2,7 +2,8 @@ import React, { useRef } from "react";
 import { Button } from "antd";
 import mainImage from "../../assets/1-landing/Group 1000001778.png";
 import secondImage from "../../assets/1-landing/Group 1000001785.png";
-import sign from "../../assets/1-landing/Group 8837.png";
+// import sign from "../../assets/1-landing/Group 8837.png";
+import sign from '../../assets/1-landing/_Sanjay Dasot.png'
 import { Carousel } from "antd";
 import "./style.css";
 
@@ -45,13 +46,13 @@ const Landing = () => {
   return (
     <div className="h-auto">
       <div className="hidden lg:block">
-        <Carousel autoplay dotPosition="bottom" dots={"red"} ref={ref}>
+        <Carousel dotPosition="bottom" dots={"red"} ref={ref} autoplay={true} autoplaySpeed={3000} pauseOnHover={false}>
           <div>
             <Slide1 />
           </div>
-          <div>
+          {/* <div>
             <Slide2 />
-          </div>
+          </div> */}
           {/* <div>
           <Slide2 />
           </div>
@@ -80,12 +81,12 @@ const Landing = () => {
 
 const Slide1 = () => {
   return (
-    <div className="flex flex-wrap justify-between items-center">
-      <div className="space-y-6 md:ml-44 mb-12 flex-col  justify-center mt-12 w-full md:w-auto">
-        <div className="font-base font-semibold text-3xl lg:text-5xl text-center md:text-left w-full">
+    <div className="flex flex-wrap md:flex-auto justify-between items-center">
+      <div className="space-y-6 md:ml-20 mb-12 flex-col  justify-center w-full md:w-auto md:mb-40">
+        <div className="font-base font-medium text-3xl lg:text-6xl text-center md:text-left w-full">
           For Us
         </div>
-        <div className="text-5xl md:text-5xl lg:text-7xl font-base text-generic font-bold text-center">
+        <div className="text-5xl md:text-5xl lg:text-[90px] font-base text-generic font-medium text-center">
           Work is worship
         </div>
         <div className="flex justify-center md:justify-normal">

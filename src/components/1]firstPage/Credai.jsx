@@ -51,7 +51,7 @@ const Credai = () => {
 
       <div className="h-auto bg-[#233C75] mt-12 relative">
         <img className="z-10 h-[700px] absolute" src={bgline} alt="" />
-        <div className=" h-auto z-50 relative">
+        <div className=" h-auto z-40 relative">
           <Carousel autoplay effect="fade" ref={ref}>
             {data.map((item, index) => (
               <div

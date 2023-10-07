@@ -34,7 +34,7 @@ const OurMission = () => {
       <div className="absolute top-[-40px] left-0 z-0">
         <img className="h-[800px]" src={bghut} alt="" />
       </div>
-      <div className="md:h-[750px] flex flex-col md:flex-row z-50">
+      <div className="md:h-[750px] flex flex-col md:flex-row z-40">
         <div className="w-full md:w-1/2 flex justify-center py-12 md:px-12">
           <img
             className="w-80 h-72 md:w-min md:h-min md:ml-20 object-cover object-center"

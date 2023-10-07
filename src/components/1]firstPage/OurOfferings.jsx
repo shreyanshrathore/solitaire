@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../../assets/5-Our Offerings/Group (1).png";
-import img2 from "../../assets/5-Our Offerings/Group (2).png";
-import img3 from "../../assets/5-Our Offerings/Group 8762.png";
-import img4 from "../../assets/5-Our Offerings/Group.png";
-import img5 from "../../assets/5-Our Offerings/XMLID_1_ (1).png";
-import img6 from "../../assets/5-Our Offerings/XMLID_1_.png";
+import img1 from "../../assets/5-Our Offerings/icon1.svg";
+import img2 from "../../assets/5-Our Offerings/icon2.svg";
+import img3 from "../../assets/5-Our Offerings/icon3.svg";
+import img4 from "../../assets/5-Our Offerings/icon4.svg";
+import img5 from "../../assets/5-Our Offerings/icon5.svg";
+import img6 from "../../assets/5-Our Offerings/icon6.svg";
 
 import background from "../../assets/5-Our Offerings/Group 1000001786.png";
 
@@ -58,8 +58,8 @@ const OurOfferings = () => {
       <div className="absolute z-0">
         <img className=" w-full top-0" src={background} alt="" />
       </div>
-      <div className="relative z-50">
-        <h1 className="z-50 text-5xl md:text-6xl font-base text-generic italic font-semibold p-12 md:ml-16 mt-20">
+      <div className="relative z-40">
+        <h1 className="z-40 text-5xl md:text-6xl font-base text-generic italic font-semibold p-12 md:ml-16 mt-20">
           Our Offerings
         </h1>
         <div className="flex justify-center items-center ">

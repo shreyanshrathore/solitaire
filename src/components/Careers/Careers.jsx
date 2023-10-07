@@ -22,15 +22,15 @@ const Careers = () => {
   return (
     <div>
       <LandingCard item={item} />
-      <div className="flex justify-center py-44 w-screen">
+      <div className="flex justify-center w-screen py-44">
         <div className="w-[80%] bg-generic h-[540px] relative">
           <div className="absolute bottom-0 left-16">
             <div className="flex gap-20">
               <div className="hidden md:block">
                 <img src={model} alt="" />
               </div>
-              <div className="space-y-6 mt-48">
-                <h1 className="text-6xl font-base text-white italic">
+              <div className="mt-48 space-y-6">
+                <h1 className="text-6xl italic text-white font-base">
                   Join Us
                 </h1>
                 <div className="text-white md:w-[500px] text-lg font-base font-light">

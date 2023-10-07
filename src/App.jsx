@@ -7,10 +7,11 @@ import ProjectPage from "./Pages/ProjectPage";
 import ContactPage from "./Pages/ContactPage";
 import Footer from "./components/1]firstPage/Footer";
 import Careers from "./Pages/CareersPage";
+import Aboutus from "./Pages/Aboutus";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-white">
       <BrowserRouter>
       <Nav/>
         <Routes>
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/project" element={<ProjectPage />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
           <Route path="/careers" element={<Careers />}></Route>
+          <Route path="/aboutus" element={<Aboutus />}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

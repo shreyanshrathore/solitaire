@@ -13,7 +13,7 @@ const item = {
 }
 const AddlProjects = () => {
   return (
-    <div>
+    <div className='pt-28'>
         {/* <Nav/> */}
         <LandingCard item = {item}/>
         <Search/>

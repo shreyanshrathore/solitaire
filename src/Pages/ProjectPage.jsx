@@ -13,7 +13,7 @@ import Footer from "../components/1]firstPage/Footer";
 
 const ProjectPage = () => {
   return (
-    <div>
+    <div className="pt-[118px]">
       <LandingCard />
       <div className="flex justify-center">
         <div className="w-[90%] md:w-[83%]">

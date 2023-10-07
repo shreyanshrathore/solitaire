@@ -31,6 +31,9 @@ const LandingCard = ({ item }) => {
         src={item && item.bg ? item.bg : url2}
         alt=""
       />
+      <div className="absolute top-0 h-full w-full" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(13, 13, 13, 0.88) 100%)' }}>
+        hello
+      </div>
       <div className="absolute bottom-20 text-6xl md:text-8xl font-base italic text-white">
         {item && item.heading ? item.heading : "The Sapphire"}
       </div>

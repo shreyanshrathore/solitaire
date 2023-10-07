@@ -99,8 +99,13 @@ const Nav = () => {
   };
 
   return (
-    <div className="">
-      <div className="py-4 px-8 md:px-28 border-b-2 border-gray-100 flex items-center justify-between">
+<div className="fixed w-full z-50 bg-white" style={{
+  // border: '0.2px solid #AAA',
+  background: 'rgba(255, 255, 255, 0.70)',
+  backdropFilter: 'blur(70.5px)'
+}}>
+
+      <div className="py-4 px-8 md:px-28 flex items-center justify-between">
         <img className="h-20" src={logo} alt="" />
 
         <div className=" text-xl flex space-x-10  flex-row-reverse">
@@ -113,7 +118,7 @@ const Nav = () => {
                 Home
               </div>
             </Link>
-            <Link to="/about-us">
+            <Link to="/aboutus">
               <div
                 className={`${navbasic} ${navColor(1)}`}
                 onClick={() => setCurrentNav(1)}

@@ -26,13 +26,13 @@ const Footer = () => {
   return (
     <div className="bg-[#FFF9F9] py-12">
       <div className="flex justify-center items-center">
-        <div className="w-[80%] flex md:justify-between justify-center space-y-8 flex-wrap">
+        <div className="w-[80%] flex md:justify-between justify-center space-y-8 md:space-y-0 gap-4 flex-wrap ">
           <div className="hidden md:block">
             <Miss />
           </div>
 
-          <div className="flex items-center">
-            <img className="h-20" src={logo} alt="" />
+          <div className="flex h-full">
+            <img className="h-20 md:h-24" src={logo} alt="" />
           </div>
 
           <div className="md:hidden">
