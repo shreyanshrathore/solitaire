@@ -9,7 +9,9 @@ import Button from "../Button";
 import { DownOutlined } from "@ant-design/icons";
 import projects from "../AllProjects/allproject.json";
 import { useForm } from "react-hook-form";
-import axios from 'axios';
+import axios from "axios";
+
+import "./style.css";
 
 const buttonData = {
   button_color: "bg-[#233C75]",
@@ -45,16 +47,16 @@ const WantMore = () => {
 
   const onSubmit = async (data) => {
     // Add your API endpoint for posting data to your Google Sheet here
-    const sheetdbApiUrl = 'https://sheetdb.io/api/v1/gk5ocikoq99au'; // Replace with your actual API URL
+    const sheetdbApiUrl = "https://sheetdb.io/api/v1/gk5ocikoq99au"; // Replace with your actual API URL
 
     // Ensure that the structure of 'data' matches your Google Sheet's columns
-    const newData = { 
-      "name": data.name,
-      "email": data.email,
-      "phone_num": data.phone_num, // Ensure it matches the registered field name
-      "property": state
+    const newData = {
+      name: data.name,
+      email: data.email,
+      phone_num: data.phone_num, // Ensure it matches the registered field name
+      property: state,
     };
-    console.log(newData)
+    console.log(newData);
     try {
       const response = await axios.post(sheetdbApiUrl, newData, {
         headers: {
@@ -84,13 +86,13 @@ const WantMore = () => {
                   placeholder="Enter your username"
                   prefix={<UserOutlined className="site-form-item-icon" />}
                   className="h-12 px-2 rounded-sm"
-                  {...register("name")} 
+                  {...register("name")}
                 />
                 <input
                   placeholder="Enter your Email"
                   prefix={<MessageOutlined className="site-form-item-icon" />}
                   className="h-12 px-2 rounded-sm"
-                  {...register("email")} 
+                  {...register("email")}
                 />
               </div>
 
@@ -99,10 +101,10 @@ const WantMore = () => {
                   placeholder="Enter your Phone number"
                   prefix={<PhoneOutlined className="site-form-item-icon" />}
                   className="h-12 px-2 rounded-sm"
-                  {...register("phone_num")} 
+                  {...register("phone_num")}
                 />
                 <Dropdown menu={menuProps}>
-                  <button className="flex justify-between h-auto p-3 bg-white rounded-sm ">
+                  <button className="flex justify-between h-auto p-3 bg-white rounded-sm">
                     <div className="text-gray-400">{state}</div>
                     <div>
                       <DownOutlined />
@@ -118,7 +120,6 @@ const WantMore = () => {
             </button>
           </div>
         </form>
-        
       </div>
     </div>
   );

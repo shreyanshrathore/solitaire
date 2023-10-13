@@ -26,4 +26,12 @@
       }
     }
   }
+
+
+  .ant-dropdown-menu {
+    max-height: 160px; /* Set your desired maximum height */
+    overflow-y: auto;  /* Add a vertical scrollbar if the content exceeds the height */
+    color: #9d0a17;
+  }
+  
   

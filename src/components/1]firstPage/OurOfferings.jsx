@@ -56,14 +56,14 @@ const OurOfferings = () => {
   return (
     <div className="relative h-auto overflow-hidden">
       <div className="absolute z-0">
-        <img className=" w-full top-0" src={background} alt="" />
+        <img className="top-0 w-full " src={background} alt="" />
       </div>
       <div className="relative z-40">
-        <h1 className="z-40 text-5xl md:text-6xl font-base text-generic italic font-semibold p-12 md:ml-16 mt-20">
+        <h1 className="z-40 p-[70px] mt-20 text-5xl italic font-semibold md:text-6xl font-base text-generic md:ml-16">
           Our Offerings
         </h1>
-        <div className="flex justify-center items-center ">
-          <div className="flex flex-wrap gap-12  justify-center">
+        <div className="flex items-center justify-center ">
+          <div className="flex flex-wrap justify-center gap-12">
             {data.map((item, index) => (
               <div key={index}>
                 <Card props={item} />
@@ -83,11 +83,11 @@ const Card = ({ props }) => {
         <div className="flex justify-center md:justify-normal">
           <img src={props.img} alt="" />
         </div>
-        <h1 className="font-base text-generic italic font-semibold text-3xl text-center md:text-left">
+        <h1 className="text-3xl italic font-semibold text-center font-base text-generic md:text-left">
           {props.heading}
         </h1>
       </div>
-      <p className="font-base text-xl text-gray-600 w-80 text-center md:text-left">{props.content}</p>
+      <p className="text-xl text-center text-gray-600 font-base w-80 md:text-left">{props.content}</p>
     </div>
   );
 };
