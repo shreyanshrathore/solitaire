@@ -48,7 +48,7 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(
     scrollYProgress,
     [0, 1],
-    ["0%", `-${screenWidth * 3}px`]
+    ["0%", `-${screenWidth *3}px`]
   );
 
   return (

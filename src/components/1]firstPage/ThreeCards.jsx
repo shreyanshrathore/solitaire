@@ -3,6 +3,7 @@ import img1 from "../../assets/3-ThreeCards/Group 8374.png";
 import img2 from "../../assets/3-ThreeCards/Group 8375.png";
 import img3 from "../../assets/3-ThreeCards/Group 8376.png";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 const ThreeCards = () => {
   const data = [
@@ -56,20 +57,19 @@ const ThreeCards = () => {
   ];
 
   return (
-<div className="flex justify-center md:p-20 flex-wrap p-6 space-y-6 md:space-y-0 w-full gap-8">
-  {data.map((item, index) => (
-    <div key={index}>
-      <Card
-        img={item.img}
-        heading={item.heading}
-        headingColor={item.headingColor}
-        content={item.content}
-        button={item.buttonData}
-      />
+    <div className="flex flex-wrap justify-center w-full gap-8 p-6 space-y-6 md:p-20 md:space-y-0">
+      {data.map((item, index) => (
+        <div key={index}>
+          <Card
+            img={item.img}
+            heading={item.heading}
+            headingColor={item.headingColor}
+            content={item.content}
+            button={item.buttonData}
+          />
+        </div>
+      ))}
     </div>
-  ))}
-</div>
-
   );
 };
 
@@ -80,16 +80,20 @@ const Card = ({ img, heading, headingColor, content, button }) => {
         <div className="flex justify-center">
           <img src={img} alt="" />
         </div>
-        <div className="space-y-3 h-64">
+        <div className="h-64 space-y-3">
           <h1
             className={`text-center ${headingColor} text-4xl font-base italic font-semibold`}
           >
             {heading}
           </h1>
-          <p className="text-center text-gray-500 md:text-xl text-lg">{content}</p>
+          <p className="text-lg text-center text-gray-500 md:text-xl">
+            {content}
+          </p>
         </div>
         <div className="flex justify-center">
-          <Button props={button} />
+          <Link to={"/allprojects"}>
+            <Button props={button} />
+          </Link>
         </div>
       </div>
     </div>

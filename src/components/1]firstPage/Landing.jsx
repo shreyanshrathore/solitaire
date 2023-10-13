@@ -3,8 +3,9 @@ import { Button } from "antd";
 import mainImage from "../../assets/1-landing/Group 1000001778.png";
 import secondImage from "../../assets/1-landing/Group 1000001785.png";
 // import sign from "../../assets/1-landing/Group 8837.png";
-import sign from '../../assets/1-landing/_Sanjay Dasot.png'
+import sign from "../../assets/1-landing/_Sanjay Dasot.png";
 import { Carousel } from "antd";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const left = (
@@ -43,37 +44,38 @@ const right = (
 
 const Landing = () => {
   const ref = useRef();
+
   return (
     <div className="h-auto">
-      <div className="hidden lg:block">
-        <Carousel dotPosition="bottom" dots={"red"} ref={ref} autoplay={true} autoplaySpeed={3000} pauseOnHover={false}>
+      <div className="relative hidden sm:block">
+        <Carousel
+          className="h-auto"
+          dotPosition="bottom"
+          dots={"red"}
+          ref={ref}
+          autoplay={true}
+          autoplaySpeed={3000}
+          pauseOnHover={false}
+        >
           <div>
             <Slide1 />
           </div>
-          {/* <div>
+          <div>
             <Slide2 />
-          </div> */}
-          {/* <div>
-          <Slide2 />
           </div>
-          <div>
-          <Slide2 />
-          </div>
-          <div>
-          <Slide2 />
-        </div> */}
         </Carousel>
+        <div className="hidden md:absolute justify-between bottom-12 right-[44%] w-44 md:flex">
+          <button onClick={() => ref.current.prev()}>
+            <div className="text-generic">{left}</div>
+          </button>
+          <button onClick={() => ref.current.next()}>
+            <div className="text-generic">{right}</div>
+          </button>
+        </div>
       </div>
-      <div className="block lg:hidden">
+
+      <div className="block sm:hidden">
         <Slide1 />
-      </div>
-      <div className="w-44 justify-between absolute bottom-[-220px] right-[44%] hidden md:flex">
-        <button onClick={() => ref.current.prev()}>
-          <div className="text-generic">{left}</div>
-        </button>
-        <button onClick={() => ref.current.next()}>
-          <div className="text-generic">{right}</div>
-        </button>
       </div>
     </div>
   );
@@ -81,12 +83,12 @@ const Landing = () => {
 
 const Slide1 = () => {
   return (
-    <div className="flex flex-wrap md:flex-auto justify-between items-center">
-      <div className="space-y-6 md:ml-20 mb-12 flex-col  justify-center w-full md:w-auto md:mb-40">
-        <div className="font-base font-medium text-3xl lg:text-6xl text-center md:text-left w-full">
+    <div className="flex flex-wrap items-center justify-between sm:flex-nowrap ">
+      <div className="flex-col justify-center w-full mb-12 space-y-6 md:ml-20 md:w-auto md:mb-40">
+        <div className="w-full text-3xl font-medium text-center font-base lg:text-3xl xl:text-6xl md:text-left">
           For Us
         </div>
-        <div className="text-5xl md:text-5xl lg:text-[90px] font-base text-generic font-medium text-center">
+        <div className="text-4xl font-medium text-center md:text-4xl lg:text-6xl font-base text-generic">
           Work is worship
         </div>
         <div className="flex justify-center md:justify-normal">
@@ -94,8 +96,12 @@ const Slide1 = () => {
         </div>
       </div>
 
-      <div>
-        <img src={mainImage} alt="" />
+      <div className="">
+        <img
+          className="object-cover object-center h-[500px] md:h-[600px] lg:h-[700px] xl:h-auto"
+          src={mainImage}
+          alt=""
+        />
       </div>
     </div>
   );
@@ -103,26 +109,28 @@ const Slide1 = () => {
 
 const Slide2 = () => {
   return (
-    <div className="">
-      <div>
+    <div className="h-full">
+      <div className="h-full">
         <img
-          className="w-full object-cover object-center"
+          className="object-cover object-center w-full h-full"
           src={secondImage}
           alt=""
         />
       </div>
 
-      <div className="absolute top-0 justify-center items-center">
+      <div className="absolute top-0 items-center justify-center">
         <div className="ml-44 mt-72">
           <div className="font-medium w-[500px] font-base text-white text-[65px] leading-[1] ">
             The first major international smart city coming
           </div>
-          <div className="relative cursor-pointer mt-12">
-            <button className="bg-generic text-white text-xl font-base w-36 h-12 hover:scale-95 transition-transform">
-              View Project
-            </button>
-            <div className="w-36 h-12 border-2 border-generic absolute top-1 left-1"></div>
-          </div>
+          <Link to={"/allprojects"}>
+            <div className="relative mt-12 cursor-pointer">
+              <button className="h-12 text-xl text-white transition-transform bg-generic font-base w-36 hover:scale-95">
+                View Projects
+              </button>
+              <div className="absolute h-12 border-2 w-36 border-generic top-1 left-1"></div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

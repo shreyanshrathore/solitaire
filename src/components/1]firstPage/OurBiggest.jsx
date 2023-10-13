@@ -69,7 +69,7 @@ const OurBiggest = () => {
       </div>
 
       <div className="bg-[#233C75] h-auto mt-20 md:hidden">
-        <Carousel autoplay effect="fade" ref={ref}  >
+        <Carousel autoplay effect="fade" ref={ref}>
           <Slide />
           <Slide />
         </Carousel>
@@ -81,24 +81,21 @@ const OurBiggest = () => {
 const Slide = () => {
   return (
     <div>
-      <div className="flex flex-wrap pt-28 justify-between pb-32">
+      <div className="flex flex-wrap justify-between pb-32 pt-28">
         <div className="">
-          <div className="relative h-96 w-96 lg:h-96 lg:w-96 border-2 md:ml-24 ml-4 border-white">
-            <img
-              className="h-96 w-96 absolute bottom-2 right-2"
-              src={img1}
-              alt=""
-            />
-            <img
-            className="h-16 top-[40%] right-[45%] absolute"
-            src={play}
-            alt=""
-          />
+          <div className="relative flex items-center ml-4 border- h-96 w-96 lg:h-96 lg:w-96 md:ml-24">
+            <iframe
+              src="https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1"
+              title="YouTube Video"
+              frameborder="0"
+              allowfullscreen
+              className="h-[300px] w-[460px] "
+            ></iframe>
           </div>
         </div>
         <div className=" w-[500px] md:mr-32 p-4">
           <img className="h-20" src={comma} alt="" />
-          <div className="py-8 text-white font-base text-xl">
+          <div className="py-8 text-xl text-white font-base">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -106,7 +103,7 @@ const Slide = () => {
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged
           </div>
-          <div className="text-white font-base italic text-4xl">Aman Joshi</div>
+          <div className="text-4xl italic text-white font-base">Aman Joshi</div>
         </div>
       </div>
     </div>

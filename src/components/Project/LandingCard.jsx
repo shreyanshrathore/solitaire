@@ -13,9 +13,9 @@ import icon6 from "../../assets/Project/TransportIcons/6.svg";
 import icon7 from "../../assets/Project/TransportIcons/7.svg";
 import icon8 from "../../assets/Project/TransportIcons/8.svg";
 
-import amenIcon2 from "../../assets/Project/Ameneties/1.svg";
-import amenIcon1 from "../../assets/Project/Ameneties/2.svg";
-import amenIcon3 from "../../assets/Project/Ameneties/3.svg";
+import amenSecurity from "../../assets/Project/Ameneties/1.svg";
+import amenKidsPlayArea from "../../assets/Project/Ameneties/2.svg";
+import amenSwimmingPool from "../../assets/Project/Ameneties/3.svg";
 
 const url =
   "https://s3-alpha-sig.figma.com/img/0aef/932c/7f4a25fcc64f70c5efdd8856948f2875?Expires=1697414400&Signature=Rll9c9RWOFIf~kfJ6MW5v2NXM3n9AWfiL0hX1LMQuVvmbkXV2KWWNgeamKJJ8SImTp2U7ozXGDD7vSsJL8kzC1JQPdkSwtUPI2r9czfqcJ~FFRBwMe~TmanDuJ5yvzD00OsTdR0gRJ8ylKFqpCJDGQsmGF~2KfC-8-h2mXuiza3I2QDQhA3LM9WQsYQuB2Y-KrTyEXyqAIR5cq5LaXq-wwgcd1qdJdRNekURy5CwZF9dS9HWikS1HIMMTRIuaz9ao4pMliIIFd2BuPWqoAQ1jESd2d3X2k1GXphd3puqhDTYueQAb2vYabSMNNvwnq9ysQ4qQiOvXRWxUo7GmpR6dw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
@@ -23,19 +23,23 @@ const url =
 const url2 =
   "https://s3-alpha-sig.figma.com/img/fcfa/4809/28e0199d0c0de22341c5a8bb958d1327?Expires=1697414400&Signature=ookWxB4FY7YOX~L8O3PKOVHIaQcdyF59OswxLH4QHRqQ5Ti7PvhRiO~cW~lzoxrtGgD8GQNsaSW-VA3MnQlGVtQ0llFTTe1abeibtANd9e~OV6512OqcOHZ-V3LAlDEsoA-ISzPIJaPCuXZmfzaNxpsoC0KhaPT6m-r-LYDAdWcazuzd~M~EzMDBT8kM-jjuoBb8~C5qV9v~BJv2qHpXXtKFb1D-Grl9OhhV-mqiNuseQXkYrnMXhMTV5X5~hJflX4RR5tWObhqpMCAMiaGppUfna5-N1XukoQedgAHKToQRBP2bMRgE5ebJgHRiDgWUK5k6s6A618AAaPQac6m3Sw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
 const gallery = [url, url2, url, url, url, url, url];
-const LandingCard = ({ item }) => {
+const LandingCard = ({ item, info }) => {
   return (
-    <div className="relative h-auto overflow-hidden flex justify-center">
+    <div className="relative flex justify-center h-auto overflow-hidden">
       <img
         className="w-full min-h-[400px] md:min-h-[600px] object-cover object-center"
-        src={item && item.bg ? item.bg : url2}
+        src={item && item.bg ? item.bg : info.landingImage}
         alt=""
       />
-      <div className="absolute top-0 h-full w-full" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(13, 13, 13, 0.88) 100%)' }}>
-        hello
-      </div>
-      <div className="absolute bottom-20 text-6xl md:text-8xl font-base italic text-white">
-        {item && item.heading ? item.heading : "The Sapphire"}
+      <div
+        className="absolute top-0 w-full h-full"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(13, 13, 13, 0.88) 100%)",
+        }}
+      ></div>
+      <div className="absolute text-6xl italic text-white bottom-20 md:text-8xl font-base">
+        {item && item.heading ? item.heading : info.title}
       </div>
     </div>
   );
@@ -43,7 +47,7 @@ const LandingCard = ({ item }) => {
 
 export const Heading = ({ text }) => {
   return (
-    <h1 className="font-base text-5xl text-non italic font-semibold flex justify-center md:block">
+    <h1 className="flex justify-center text-5xl italic font-semibold font-base text-non md:block">
       {text}
     </h1>
   );
@@ -51,7 +55,7 @@ export const Heading = ({ text }) => {
 
 export const DoubleHeading = ({ text }) => {
   return (
-    <div className="lg:flex w-full h-auto lg:items-center lg:justify-between">
+    <div className="w-full h-auto lg:flex lg:items-center lg:justify-between">
       <Heading text={text} />
       <div className="font-base italic font-light text-gray-100 text-[160px] hidden xl:block px-12">
         {text}
@@ -67,7 +71,7 @@ export const Card = ({ item }) => {
         <div className="flex justify-center">
           <img className="h-12" src={item.icon} alt="" />
         </div>
-        <div className="flex justify-center font-base font-semibold italic text-md md:text-xl p-2">
+        <div className="flex justify-center p-2 italic font-semibold font-base text-md md:text-xl">
           <div>{item.heading}</div>
           <div>{item.value}</div>
         </div>
@@ -75,13 +79,13 @@ export const Card = ({ item }) => {
     </div>
   );
 };
-export const Status = () => {
+export const Status = ({ info }) => {
   return (
     <div className="flex justify-center w-full ">
       <div className="flex justify-between md:w-[85%] px-2 py-6">
-        <State heading={"State"} content={"On-Going"} />
-        <State heading={"Location"} content={"Bypass Nipania, Indore"} />
-        <State heading={"RERA"} content={"P-IND-19-2389"} />
+        <State heading={"State"} content={info.state} />
+        <State heading={"Location"} content={info.location} />
+        <State heading={"RERA"} content={info.rera} />
       </div>
     </div>
   );
@@ -90,36 +94,29 @@ export const Status = () => {
 const State = ({ heading, content }) => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row pl-3 font-base lg:gap-2 text-lg lg:text-xl w-32 md:w-full">
-        <p className=" font-semibold"> {heading}: </p>
+      <div className="flex flex-col w-32 pl-3 text-lg lg:flex-row font-base lg:gap-2 lg:text-xl md:w-full">
+        <p className="font-semibold "> {heading}: </p>
         <p className="text-gray-400"> {content} </p>
       </div>
     </div>
   );
 };
 
-export const Overview = () => {
+export const Overview = ({ info }) => {
   return (
     <div>
       <div>
         <Heading text="Overview" />
-        <div className="flex md:gap-12 flex-wrap justify-between">
+        <div className="flex flex-wrap justify-between md:gap-12">
           <div className="py-8">
-            <img className="w-[600px]" src={image} alt="" />
+            <img className="w-[600px] h-[480px] object-cover object-center" src={info.thumbnailImage} alt="" />
           </div>
           <div className="w-[600px]">
             <div className="font-base italic font-light text-gray-100 text-[160px] hidden xl:block ">
               Overview
             </div>
-            <div className="p-6 text-lg md:text-xl lg:text-2xl text-gray-500 font-base italic text-center md:text-left">
-              "The Sapphire brings warm charm residences with a relaxed soothing
-              lifestyle. This is a landmark, a first-of-its-kind residence in
-              Indore. Bypass, Indore is one of the fastest developing localities
-              of Indore. Known for its recreational amenities, The Sapphire is
-              based at a prime location with various amenities. The project
-              offers plenty of benefits that includes prime location,
-              comfortable and lavish lifestyle, great amenities, healthy
-              surroundings, and high return."
+            <div className="p-6 text-lg italic text-center text-gray-500 md:text-xl lg:text-2xl font-base md:text-left">
+              {info.overview}
             </div>
           </div>
         </div>
@@ -128,7 +125,7 @@ export const Overview = () => {
   );
 };
 
-export const Gallery = () => {
+export const Gallery = ({info}) => {
   const [toggler, setToggler] = useState(false);
   const [num, setNum] = useState(0);
   const handleImage = (index) => {
@@ -139,16 +136,16 @@ export const Gallery = () => {
     <div>
       <DoubleHeading text="Gallery" />
 
-      <div className="justify-center flex">
+      <div className="flex justify-center">
         <div
           className="w-full overflow-hidden overflow-x-scroll sm:overflow-x-hidden h-52 sm:h-auto"
           style={{ WebkitOverflowScrolling: "touch" }}
         >
-          <div className="w-max h-auto gap-4 p-4 flex  sm:flex-wrap sm:w-full">
-            {gallery.map((item, index) => (
+          <div className="flex h-auto gap-4 p-4 w-max sm:flex-wrap sm:w-full">
+            {info.galleryImages.map((item, index) => (
               <div onClick={() => handleImage(index)}>
                 <img
-                  className="w-72 h-44 object-cover object-center"
+                  className="object-cover object-center w-72 h-44"
                   src={item}
                   alt=""
                 />
@@ -158,21 +155,21 @@ export const Gallery = () => {
         </div>
 
         <>
-          <FsLightbox toggler={toggler} sources={gallery} sourceIndex={num} />
+          <FsLightbox toggler={toggler} sources={info.galleryImages} sourceIndex={num} />
         </>
       </div>
     </div>
   );
 };
 
-export const VideoTour = () => {
+export const VideoTour = ({info}) => {
   return (
-    <div className="flex py-8 flex-wrap justify-center xl:justify-between">
+    <div className="flex flex-wrap justify-center py-8 xl:justify-between">
       <div className="">
         <Heading text="Video Tour" />
-        <div className="p-6 flex justify-center">
+        <div className="flex justify-center p-6">
           <iframe
-            src="https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1"
+            src={info.videoLink}
             title="YouTube Video"
             frameborder="0"
             allowfullscreen
@@ -185,7 +182,7 @@ export const VideoTour = () => {
         <Heading text="Map " />
         <div className="p-6">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.2176253555963!2d75.93316723924599!3d22.763939540233114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631db23b652eb9%3A0x4715190d91549503!2sThe%20Sapphire!5e0!3m2!1sen!2sin!4v1696409775862!5m2!1sen!2sin"
+            src= {info.mapCoordinates}
             // width="600"
             // height="450"
             // style="border:0;"
@@ -200,63 +197,63 @@ export const VideoTour = () => {
   );
 };
 
-export const Transport = () => {
+export const Transport = ({info}) => {
   const data = [
     {
       icon: icon1,
       heading: "Supermarket:",
-      value: "1.7km",
+      value: info.transport.supermarket
     },
     {
       icon: icon2,
       heading: "Railway St.:",
-      value: "7.7km",
+      value: info.transport.railwayStation
     },
     {
       icon: icon3,
       heading: "Petrol Pump:",
-      value: "1.4km",
+      value: info.transport.petrolPump,
     },
     {
       icon: icon4,
       heading: "Hospital:",
-      value: "2.6km",
+      value: info.transport.hospital,
     },
     {
       icon: icon5,
       heading: "Airport:",
-      value: "16km",
+      value: info.transport.airport,
     },
     {
       icon: icon6,
       heading: "School:",
-      value: "1km",
+      value: info.transport.school,
     },
     {
       icon: icon7,
       heading: "Bus Stop:",
-      value: "2.2km",
+      value: info.transport.busStop,
     },
     {
       icon: icon8,
       heading: "Bank:",
-      value: "1.4km",
+      value: info.transport.bank,
     },
   ];
   return (
     <div>
       <DoubleHeading text="Key Transport" />
       <div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 py-8 gap-6">
+        <div className="grid grid-cols-2 gap-6 py-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:gap-4">
           {data.map((item, index) => (
             <div className="p-2 md:p-4">
-              <div className=" h-32 rounded-lg  flex items-center justify-center">
-                <div className=" gap-3 space-y-3">
+              <div className="flex items-center justify-center h-32 rounded-lg ">
+                <div className="gap-3 space-y-3 ">
                   <div className="flex justify-center ">
                     <img className="h-10 md:h-auto" src={item.icon} alt="" />
                   </div>
 
-                  <div className="flex gap-2 font-base text-md md:text-xl italic font-semibold">
+                  <div className="flex gap-2 italic font-semibold font-base text-md md:text-xl">
                     <div>{item.heading}</div>
                     <div>{item.value}</div>
                   </div>
@@ -281,36 +278,52 @@ export const AmenitiesCard = ({ item }) => {
             alt=""
           />
         </div>
-        <div className="text-center text-xl md:text-2xl lg:text-3xl font-base font-semibold italic text-gray-700">
+        <div className="text-xl italic font-semibold text-center text-gray-700 md:text-2xl lg:text-3xl font-base">
           {item.heading}
         </div>
       </div>
     </div>
   );
 };
-export const Amenities = () => {
-  const data = [
+export const Amenities = ({info}) => {
+  const sample = [
     {
-      icon: amenIcon1,
+      icon: amenKidsPlayArea,
       heading: "Kids Play Area",
     },
     {
-      icon: amenIcon2,
+      icon: amenSecurity,
       heading: "24 x 7 Security",
     },
     {
-      icon: amenIcon3,
+      icon: amenSwimmingPool,
       heading: "Swimming Pool",
     },
     {
-      icon: amenIcon1,
+      icon: amenKidsPlayArea,
       heading: "Kids Play Area",
     },
     {
-      icon: amenIcon2,
+      icon: amenSecurity,
       heading: "24 X 7 Security",
     },
   ];
+  const data = info.amenities.map((item) => {
+    if (item === "Swimming Pool") {
+      return sample[0];
+    }
+    if (item === "Fitness Center") {
+      return sample[1];
+    }
+    if (item === "Park") {
+      return sample[2];
+    }
+    if (item === "Playground") {
+      return sample[0];
+    }
+  });
+  
+
   return (
     <div className="w-[98%]">
       <DoubleHeading text="Amenities" />
@@ -322,7 +335,7 @@ export const Amenities = () => {
           "-ms-overflow-style": "none",
         }}
       >
-        <div className="flex gap-4 md:gap-8 lg:gap-12 w-max  p-4">
+        <div className="flex gap-4 p-4 md:gap-8 lg:gap-12 w-max">
           {data.map((item, index) => (
             <AmenitiesCard item={item} key={index} />
           ))}

@@ -10,7 +10,7 @@ import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 // import { Link } from "react-scroll";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
@@ -18,7 +18,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 const Nav = () => {
   const links = [
     { title: "HOME", send: "/" },
-    { title: "ABOUT US", send: "about-us" },
+    { title: "ABOUT US", send: "aboutus" },
     { title: "PROJECTS", send: "/allprojects" },
     { title: "CAREERS", send: "careers" },
     { title: "CONTACT US", send: "contact-us" },
@@ -26,7 +26,7 @@ const Nav = () => {
 
   // mobile
   const list = () => (
-    <div className="bg-white h-full">
+    <div className="h-full bg-white">
       <Box
         sx={{ width: 250 }}
         role="presentation"
@@ -34,21 +34,29 @@ const Nav = () => {
         onKeyDown={toggleDrawer(false)}
       >
         <List>
-          <div className="space-y-8 py-12">
+          <div className="py-12 space-y-8">
             {links.map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
-                  <Link
+                  <NavLink
                     to={text.send}
+                    key={index}
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="cursor-pointer"
+                    style={({ isActive, isPending }) => {
+                      return {
+                        fontWeight: isPending ? "bold" : "",
+                        color: isActive ? "#794AFF" : "#6F6F6F",
+                      };
+                    }}
                   >
-                    <div className="text-2xl italic font-semibold text-gray-600 font-base">
-                      {text.title}
-                    </div>
-                  </Link>
+                    {/* <div className="text-2xl italic font-semibold text-gray-600 font-base"> */}
+                    {text.title}
+                    {/* </div> */}
+                  </NavLink>
+
                   <Divider />
                 </ListItemButton>
               </ListItem>
@@ -99,41 +107,69 @@ const Nav = () => {
   };
 
   return (
-<div className="fixed w-full z-50 bg-white" style={{
-  // border: '0.2px solid #AAA',
-  background: 'rgba(255, 255, 255, 0.70)',
-  backdropFilter: 'blur(70.5px)'
-}}>
-
-      <div className="py-4 px-8 md:px-28 flex items-center justify-between">
+    <div
+      className="fixed z-50 w-full bg-white"
+      style={{
+        // border: '0.2px solid #AAA',
+        background: "rgba(255, 255, 255, 0.70)",
+        backdropFilter: "blur(70.5px)",
+      }}
+    >
+      <div className="flex items-center justify-between px-8 py-4 md:px-28">
         <img className="h-20" src={logo} alt="" />
 
-        <div className=" text-xl flex space-x-10  flex-row-reverse">
-          <div className="hidden md:flex space-x-10 text-xl">
-            <Link to="/">
-              <div
-                className={`${navbasic} ${navColor(0)}`}
-                onClick={() => setCurrentNav(0)}
-              >
+        <div className="flex flex-row-reverse space-x-10 text-xl ">
+          <div className="hidden space-x-10 text-xl md:flex">
+            <NavLink
+              to="/"
+              style={({ isActive, isPending }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#9D0A17" : "#6F6F6F",
+                };
+              }}
+            >
+              <div className={`${navbasic}`} onClick={() => setCurrentNav(0)}>
                 Home
               </div>
-            </Link>
-            <Link to="/aboutus">
-              <div
-                className={`${navbasic} ${navColor(1)}`}
-                onClick={() => setCurrentNav(1)}
-              >
+            </NavLink>
+
+            <NavLink
+              to="/aboutus"
+              style={({ isActive, isPending }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#9D0A17" : "#6F6F6F",
+                };
+              }}
+            >
+              <div className={`${navbasic} `} onClick={() => setCurrentNav(1)}>
                 About us
               </div>
-            </Link>
+            </NavLink>
             <div
               className={`${navbasic} flex ${navColor(2)} z-50`}
               onClick={() => navFunc()}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to={"/allprojects"}>Projects</Link>
-              <div>
+              <NavLink
+                to="/allprojects"
+                style={({ isActive, isPending }) => {
+                  return {
+                    fontWeight: isPending ? "bold" : "",
+                    color: isActive ? "#9D0A17" : "#6F6F6F",
+                  };
+                }}
+              >
+                <div
+                  // className={`${navbasic} ${navColor(0)}`}
+                  onClick={() => setCurrentNav(2)}
+                >
+                  Projects
+                </div>
+              </NavLink>
+              <div className="text-[#6F6F6F]">
                 <KeyboardArrowDownIcon />
               </div>
               <Transition
@@ -148,29 +184,39 @@ const Nav = () => {
                 {(ref) => (
                   <div
                     ref={ref}
-                    className=" absolute top-full right-0 mt-2 w-max origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    className="absolute right-0 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg top-full w-max ring-1 ring-black ring-opacity-5 focus:outline-none"
                   >
                     <Drop />
                   </div>
                 )}
               </Transition>
             </div>
-            <Link to="/careers">
-              <div
-                className={`${navbasic} ${navColor(3)}`}
-                onClick={() => setCurrentNav(3)}
-              >
+            <NavLink
+              to="/careers"
+              style={({ isActive, isPending }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#9D0A17" : "#6F6F6F",
+                };
+              }}
+            >
+              <div className={`${navbasic}`} onClick={() => setCurrentNav(0)}>
                 Careers
               </div>
-            </Link>
-            <Link to="/contact">
-              <div
-                className={`${navbasic} ${navColor(4)}`}
-                onClick={() => setCurrentNav(4)}
-              >
+            </NavLink>
+            <NavLink
+              to="/contact"
+              style={({ isActive, isPending }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#9D0A17" : "#6F6F6F",
+                };
+              }}
+            >
+              <div className={`${navbasic}`} onClick={() => setCurrentNav(4)}>
                 Contact
               </div>
-            </Link>
+            </NavLink>
           </div>
           {/* For mobile Drawer */}
           <div
@@ -202,8 +248,10 @@ const Nav = () => {
 
 const Drop = () => {
   return (
-    <div className="w-full p-6 text-gray-800 space-y-5">
-      <div>All Project</div>
+    <div className="w-full p-6 space-y-5 text-gray-800">
+      <Link to={'/allprojects'}>
+        <div>All Project</div>
+      </Link>
       <div className="flex">
         <div>Urban TownShips</div>
         <div>

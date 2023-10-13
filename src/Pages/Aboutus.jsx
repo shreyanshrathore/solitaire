@@ -5,7 +5,7 @@ import OurOfferings from "../components/1]firstPage/OurOfferings";
 
 const Aboutus = () => {
   return (
-    <div>
+    <div className="pt-28">
       <About />
       <OurMission/>
       <Happiness/>

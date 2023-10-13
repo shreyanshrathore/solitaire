@@ -22,6 +22,7 @@
     "@splidejs/splide": "^4.1.4",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "antd": "^5.9.2",
+    "axios": "^1.5.1",
     "flowbite-react": "^0.6.1",
     "framer-motion": "^10.16.4",
     "fslightbox-react": "^1.7.6",
@@ -31,6 +32,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-heroicons": "^0.0.7",
+    "react-hook-form": "^7.47.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "react-scroll": "^1.8.9"

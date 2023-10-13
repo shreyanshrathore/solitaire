@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import LandingPage from "./Pages/LandingPage";
 import AllProjects from "./Pages/AllProjects";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -10,14 +10,15 @@ import Careers from "./Pages/CareersPage";
 import Aboutus from "./Pages/Aboutus";
 
 const App = () => {
+  const [info, setInfo] = useState(null)
   return (
     <div className="bg-white">
       <BrowserRouter>
       <Nav/>
         <Routes>
-          <Route path="/" element={<LandingPage />}></Route>
-          <Route path="/allprojects" element={<AllProjects />}></Route>
-          <Route path="/project" element={<ProjectPage />}></Route>
+          <Route path="/" element={<LandingPage setInfo = {setInfo}/>}></Route>
+          <Route path="/allprojects" element={<AllProjects setInfo = {setInfo}/>}></Route>
+          <Route path="/project" element={<ProjectPage info = {info}/>}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
           <Route path="/careers" element={<Careers />}></Route>
           <Route path="/aboutus" element={<Aboutus />}></Route>

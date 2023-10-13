@@ -12,6 +12,7 @@ import lowerright from "../../assets/Aboutus/lowerright.png";
 
 import card1 from "../../assets/Aboutus/card1.svg";
 import card2 from "../../assets/Aboutus/card2.svg";
+import Button from "../Button";
 
 const item = {
   bg: bg,
@@ -54,12 +55,12 @@ const Info = () => {
 
 export const Happiness = () => {
   return (
-    <div className="py-4 space-y-4 px-36">
+    <div className="py-4 space-y-4 lg:px-36">
       <h1 className="text-3xl italic font-semibold text-center font-base lg:text-left md:text-3xl lg:text-4xl text-generic">
         Where happiness lives
       </h1>
 
-      <div className="text-lg text-gray-500 w-[900px] font-base">
+      <div className="text-lg text-gray-500 md:w-[900px] font-base text-center">
         Solitaire Realty stands for improving quality of life through enhancing
         living experience or money invested in our residential and commercial
         properties. Experience the fruitfulness through our projects.
@@ -69,22 +70,54 @@ export const Happiness = () => {
 };
 
 export const TwoCard = () => {
+
+  const buttonData = {
+    button_color: "bg-generic",
+    border_color: "border-generic",
+    txt_col: "text-white",
+    text_size: "text-lg",
+    button_width: "w-36",
+    button_height: "h-12",
+    title: "Explore More",
+  };
   return (
-    <div className="flex flex-col gap-12 px-32 md:flex-row">
+    <div className="flex flex-wrap gap-12 py-12 md:flex-nowrap md:px-32 md:flex-row">
       <div className="bg-[#233C75] w-full h-96 relative">
         <img className="absolute top-0 left-0" src={upperleft} alt="" />
         <img className="absolute bottom-0 right-0" src={lowerright} alt="" />
 
-        <div>
+        <div className="flex flex-col items-center justify-center h-full space-y-4">
           <img src={card1} alt="" />
-          <h1 className="text-4xl italic font-semibold text-white font-base">Invest in our project</h1>
-          <p className="text-white">
+          <h1 className="text-4xl italic font-semibold text-white font-base">
+            Invest in our project
+          </h1>
+          <p className="text-center text-white w-96">
             Investments in our projects have proven to be super fruitful for our
             inverstors providing upto 20x returns*
           </p>
+          <div>
+            <Button props = {buttonData}/>
+          </div>
         </div>
       </div>
-      <div className="bg-[#233C75] w-full h-96">h</div>
+      <div className="bg-[#233C75] w-full h-96 relative">
+        <img className="absolute top-0 right-0" src={upperright} alt="" />
+        <img className="absolute bottom-0 left-0" src={lowerleft} alt="" />
+
+        <div className="flex flex-col items-center justify-center h-full space-y-4">
+          <img src={card2} alt="" />
+          <h1 className="text-4xl italic font-semibold text-white font-base">
+            Invest in our project
+          </h1>
+          <p className="text-center text-white w-96">
+            Investments in our projects have proven to be super fruitful for our
+            inverstors providing upto 20x returns*
+          </p>
+          <div>
+            <Button props = {buttonData}/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

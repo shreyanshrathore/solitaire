@@ -1,83 +1,20 @@
-// import React, { useState } from "react";
-// import { DownOutlined, SmileOutlined } from "@ant-design/icons";
-// import { Dropdown, Space } from "antd";
-// const items = [
-//   {
-//     key: "1",
-//     label: <div>Pending</div>,
-//   },
-//   {
-//     key: "2",
-//     label: <div>Ongoing</div>,
-//     icon: <SmileOutlined />,
-//   },
-//   {
-//     key: "3",
-//     label: <div>Completed</div>,
-//   },
-//   {
-//     key: "4",
-//     danger: true,
-//     label: "a danger item",
-//   },
-// ];
-
-// const App = () => {
-//   const [status, setStatus] = useState("Any");
-//   const [type, setType] = useState("Any");
-//   const [location, setLocation] = useState("Any");
-//   return (
-//     <div>
-//       <div>
-//         <h1 className="text-sm font-semibold">Project Status</h1>
-//         <Drop name={status} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// const Drop = ({ name }) => {
-//   return (
-//     <div className="w-52">
-//       <Dropdown
-//         menu={{
-//           items,
-//         }}
-//       >
-//         <a onClick={(e) => e.preventDefault()}>
-//           <div className="flex w-52 border-[2px] shadow-sm border-gray-100 p-3 rounded-sm justify-between">
-//             <div>{name}</div>
-//             <div>
-//               <DownOutlined />
-//             </div>
-//           </div>
-//         </a>
-//       </Dropdown>
-//     </div>
-//   );
-// };
-// export default App;
 
 import React, { useState } from "react";
 import Buttons from "../Button";
+import { useForm } from "react-hook-form"
 
 import { Dropdown, Button, Space } from "antd";
 import { DownOutlined, SmileOutlined, UserOutlined } from "@ant-design/icons";
 
-const Search = () => {
+const Search = ({query, setQuery}) => {
   const statusList = [
     {
-      label: "Pending",
+      label: "On Going",
       key: "1",
-      //   icon: <UserOutlined />,
-    },
-    {
-      label: "Ongoing",
-      key: "2",
     },
     {
       label: "Completed",
-      key: "3",
+      key: "2",
     },
   ];
   const typesList = [
@@ -123,31 +60,42 @@ const Search = () => {
     button_height: "h-12",
     title: "Search",
   };
-
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm()
+  const onSubmit = (data) => setQuery({status, types, location})
   return (
-    <div className="flex flex-wrap gap-6 md:gap-12 items-center w-full justify-center  md:py-12 py-6">
+    <form className="flex flex-wrap items-center justify-center w-full gap-6 py-6 md:gap-12 md:py-12" onSubmit={handleSubmit(onSubmit)}>
       <SearchCard
         items={statusList}
         state={status}
         setState={setStatus}
         heading={"Project Status"}
+        {...register("status")}
       />
       <SearchCard
         items={typesList}
         state={types}
         setState={setTypes}
         heading={"Project Types"}
+        {...register("type")}
       />
       <SearchCard
         items={locationList}
         state={location}
         setState={setLocation}
         heading={"Project Location"}
+        {...register("location")}
       />
-      <div className="h-full flex items-center mt-8">
-        <Buttons props={buttonData} />
+      <div className="flex items-center h-full mt-8">
+        <button type="submit">
+          <Buttons props={buttonData} />
+        </button>
       </div>
-    </div> 
+    </form>
   );
 };
 
@@ -165,9 +113,9 @@ const SearchCard = ({ items, state, setState, heading }) => {
   };
   return (
     <div>
-      <h1 className="text-base font-base font-semibold py-2">{heading}</h1>
+      <h1 className="py-2 text-base font-semibold font-base">{heading}</h1>
       <Dropdown menu={menuProps}>
-        <Button className="rounded-sm shadow-md p-4 w-52 flex justify-between h-auto hover:border-none">
+        <Button className="flex justify-between h-auto p-4 rounded-sm shadow-md w-52 hover:border-none">
           <div className="text-gray-400">{state}</div>
           <div>
             <DownOutlined />

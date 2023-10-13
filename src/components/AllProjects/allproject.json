@@ -1,0 +1,582 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Sakar Kunj",
+      "state": "Completed",
+      "location": "Scheme No. 140, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/02/sakar-kunj-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/02/Thumbnail-ADI03410.JPG-01.jpeg?resize=850%2C480&ssl=1",
+      "overview": "Saakar Kunj brings warm charm residences with a relaxed soothing lifestyle. This is a landmark, a first-of-its-kind residence that blends nature with its state-of-the-art infrastructure and modern amenities situated at Scheme 140, Indore. The project has several premium quality amenities.Saakar Kunj invites you in its full swing and gives your family all the comfort and elegance they deserve. Here, you will discover a home amidst lush greenery situated in a wonderfully designed enclave featured with everyday modern amenities to experience the perfect blend of sophistication and luxury.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0586.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03411.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03434.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0579.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0596.jpg?fit=2056%2C1231&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/Thumbnail-ADI03410.JPG-01.jpeg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0584.jpg?fit=2056%2C1093&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.7665904331207!2d75.91242617509114!3d22.699731328299265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e3242437de0b%3A0x31dc92edc959b947!2sSakar%20Kunj%2C%20Indore%2C%20Madhya%20Pradesh%20452016!5e0!3m2!1sen!2sin!4v1697176707636!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "290 m",
+        "railwayStation": "5.4 km",
+        "petrolPump": "1.5 km",
+        "hospital": "1 km",
+        "airport": "11.5 km",
+        "school": "550 m",
+        "busStop": "5.2 km",
+        "bank": "650 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 2,
+      "title": "Shankeshwar Vihar",
+      "state": "On Going",
+      "location": "Ujjain Road, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/02/Shankheshwar-Vihar.jpeg",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/02/Shankheshwar-Vihar.jpeg?resize=768%2C384&ssl=1",
+      "overview": "Shankeshwar Vihar is constructed in the area of Sanwer which is a residential area close to both Ujjain and Indore city. Indore-Ujjain Road is connecting this place with Lala Kheda, Gawala, Lakshman Khedi, Mukada, and Kayak Khedi along with the other locations of Madhya Pradesh. It is reachable via train, the bus as well as air from the other parts of India. The Ujjain Junction Railway Station, Indore Junction Railway Station, and Devi Ahilya Bai Holkar International Airport are available within 10kms of distance. Apart from that the availability of schools, colleges, ATMs, banks, and hospitals are there within 5km. The project offers meticulously designed Residential Plots near Ujjain Road, Indore for comfortable & peaceful living.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-1.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-2.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-3.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-4.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-5.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-6.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-7.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-8.jpg?fit=759%2C506&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29412.10664552902!2d75.82215233329433!3d22.857488200000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396305f0d5e04295%3A0xe95b91d2f0fc84e2!2sShankheshwar%20vihar!5e0!3m2!1sen!2sin!4v1697176956314!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "2.9 km",
+        "railwayStation": "5.4 km",
+        "petrolPump": "1.5 km",
+        "hospital": "1 km",
+        "airport": "11.5 km",
+        "school": "550 m",
+        "busStop": "5.2 km",
+        "bank": "650 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 3,
+      "title": "Eiffel City",
+      "state": "On Going",
+      "location": "Kanadia Road, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2023/04/eifel-city-for-web-scaled.jpg",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/eifel-city-for-web-scaled.jpg?w=1200&ssl=1",
+      "overview": "Eiffle City is one of a kind township setting benchmark for its worldclass design and facilities. It has all the 7 wonders of the world in it along with humongous architectural art works and lifestyle influence from all over the world. An ultra-luxurious residential project that offers an impeccable lifestyle to its residents. The project is surrounded by lush green surroundings, an ideal place to enjoy a soothing time after daily stress. The homes are meticulously planned and crafted to strike an unmatched balance between quality of life and value for money. The project welcomes you with all comfort, cozily tucked away from the bustle of hectic city life.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/eifel-city-for-web-scaled.jpg?w=1200&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4308.981841496368!2d76.00856713384033!3d22.75994202158572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e3735fe412c1%3A0xb6682d8e4977c7fd!2sEiffel%20city!5e0!3m2!1sen!2sin!4v1697177069139!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "2.9 km",
+        "railwayStation": "5.4 km",
+        "petrolPump": "1.5 km",
+        "hospital": "1 km",
+        "airport": "11.5 km",
+        "school": "550 m",
+        "busStop": "5.2 km",
+        "bank": "650 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 4,
+      "title": "Solitaire Corridor",
+      "state": "On Going",
+      "location": "Super Corridor, Indore",
+      "rera": "P-DPL-17-1253",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/02/DJI_0180.jpg",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/02/solitaire-corridor-scaled.jpg?w=1200&ssl=1",
+      "overview": "Solitaire Corridor is one of the most developed township of Indore. The locality has several premium quality residential and commercial amenities.The super corridor is one of the fastest developing localities of Indore. Known for its recreational amenities, the super corridor is a prime location with various commercial and residential projects. In terms of real estate projects. Located in Super Corridor, Indore, the Solitaire Corridor is a thoughtfully planned one, equipped with all amenities for a comfortable living. This skillfully crafted project has Ready To Move units. These Residential Plots in Indore relish a magnificent view and presents a perfect example of comfort and luxury.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00227.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00222.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00219.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00217.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00215.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00169.JPG.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17967.549303204974!2d75.78116821874778!3d22.774990991664247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39630197a605e167%3A0xd9b2993058548b0c!2sSolitaire%20Corridor!5e0!3m2!1sen!2sin!4v1697177306577!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "5.4 km",
+        "railwayStation": "9.2 km",
+        "petrolPump": "6.4 km",
+        "hospital": "3.5 km",
+        "airport": "7.9 km",
+        "school": "4.6 km",
+        "busStop": "5.8 km",
+        "bank": "3.1 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 5,
+      "title": "Sakar Sapphire City",
+      "state": "On Going",
+      "location": "Bypass Nipania, Indore",
+      "rera": "P-IND-19-2389",
+      "landingImage": "https://s3-alpha-sig.figma.com/img/e5bf/e1cb/c968aaac38b874e712bd1163cff7a861?Expires=1698019200&Signature=h5kIeWJB9PrcYmr71-jol-mlearh9a5WXfZWeW85kVIuymu0RCGBn7FlfZTutla6p4dNSQrq8eSXNdneAaWaAnVbZHZVjjax2Ok6mNpBPrlE-75ZoA2YmnO1lVoPRGEsiYoAS3unXQj6TSy-PHtQWluD4cQ8ZoL5K-34if9DRSUjtqd6vqyYfqXNa0Nzka5TC7JXNkFBJu2TmGKWLrTWKgNpiD7yPDUgxvNcGsUHoGT8T87FVeO4l7HaSQkOMl1WuEAKiNp4AEsqDucCkd6B1wb1qmglDWoyvIzXBQAwi8IOq26QMbbyW~AfdrlEAqnOFeFvTT1uVRbPueCn0L650g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "thumbnailImage": "https://s3-alpha-sig.figma.com/img/5423/2f38/d586da2104d84c5834330c40ad873001?Expires=1698019200&Signature=WZeAXtTK4eD7mYbCl2Htuvn5uPmgetvBlQh-oMMwnnAlqhMrMDIDXUIooUX4-rD9VOVvOWKPbZ1EpMuuFzEKb6HtXggkToS17DQep4aEpD3I5qoDIGHNfiqtP~5sNaNOFJzf7hbjCJFxR~wq-B4ee3LVWUOQWK2RZpJ5aQ1e6ElxXOTdGELpJtOiOpKhohPY4khWA0NpnpDBpNT-l~wfz2Q5qn~bERGczlUvKyMMCwqa3g-DXPHSueZOqOCb293k0a7BYe6cqgeN4YWbV7v-dcxOPstbPIchbxh4kCa2cJUKjT2hrd4pPmvPcTQZHs5wqXuZQJkZuFg4TyKpcWzIkA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "overview": "The Sapphire brings warm charm residences with a relaxed soothing lifestyle. This is a landmark, a first-of-its-kind residence in Indore. Bypass, Indore, is one of the fastest-developing localities known for its recreational amenities. The Sapphire is based at a prime location with various amenities and offers a comfortable and lavish lifestyle.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0698-1.jpg?fit=2056%2C1204&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0693-1.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03748-1.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0695-1.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03771-1.jpg?fit=2056%2C1158&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0688-2.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03776-1.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03704-1.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03768-1.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03767-1.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03770-1.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.0405310035276!2d75.92761318009572!3d22.763877072724352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631db23b652eb9%3A0x4715190d91549503!2sThe%20Sapphire!5e0!3m2!1sen!2sin!4v1697177468958!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "1.7 km",
+        "railwayStation": "7.7 km",
+        "petrolPump": "1.4 km",
+        "hospital": "2.6 km",
+        "airport": "16 km",
+        "school": "1 km",
+        "busStop": "2.2 km",
+        "bank": "1.4 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 6,
+      "title": "Siddharth Nagar",
+      "state": "Completed",
+      "location": "Scheme No. 140, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/09/Project-cover-pic.jpg.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/project_16.jpg?resize=850%2C480&ssl=1",
+      "overview": "Siddharth Nagar by Solitaire Realty is a luxurious and prestigious residential development which is rapidly expanding residential vicinity of Indore. Its proximity to hospitals, reputed schools, colleges, banks, supermarkets and specialty restaurants makes it a dream destination.Built at Scheme No 140 in Indore, Siddhart Nagar is a ready-to-move residential project. The project offers meticulously designed plots ranging from 600 sq. ft. to 1800 sq ft. for comfortable & peaceful living. The project is developed by Solitaire Realty",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-1.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-2.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-3.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-4.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-5.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-6.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-7.jpg?fit=759%2C506&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/11/img_project-status-8.jpg?fit=759%2C506&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.2176253555963!2d75.93316723924599!3d22.763939540233114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631db23b652eb9%3A0x4715190d91549503!2sThe%20Sapphire!5e0!3m2!1sen!2sin!4v1696409775862!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "290 m",
+        "railwayStation": "5.4 km",
+        "petrolPump": "1.5 km",
+        "hospital": "1 km",
+        "airport": "11.5 km",
+        "school": "550 m",
+        "busStop": "5.2 km",
+        "bank": "650 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 7,
+      "title": "Siddhi Vinayak Vihar",
+      "state": "Completed",
+      "location": "Ujjain Road, Indore",
+      "rera": "P-SWR-20-2667",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/02/siddhi-vinayak-vihar-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0192.jpg?resize=768%2C431&ssl=1",
+      "overview": "The beauty of Siddhi Vinayak Vihar is not only in its luxuriousness but also in how peaceful and spacious it is.Siddhi Vinayak is constructed in the area of Jaipur which is a residential area close to both Ujjain and Indore city. Indore-Ujjain Road is connecting this place with Lala Kheda, Gawala, Lakshman Khedi, Mukada, and Kayak Khedi along with the other locations of Madhya Pradesh. It is reachable via train, bus as well as air from the other parts of India. The Ujjain Junction Railway Station, Indore Junction Railway Station, and Devi Ahilya Bai Holkar International Airport are available within 8kms of distance. Apart from that the availability of schools, colleges, ATMs, banks, and hospitals are there within half a km. The project offers meticulously designed Residential Plots near Ujjain Road, Indore for comfortable & peaceful living.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0197.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0192.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0189.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00319.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00318.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00329.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00296.JPG.jpg?fit=2056%2C1158&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00290.JPG.jpg?fit=2056%2C1158&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148938.82071194623!2d75.79524640056815!3d22.867336593522932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963055dd5f8b7fd%3A0xc02bc7c4ca18c716!2sSiddhi%20Vinayak%20Vihar!5e0!3m2!1sen!2sin!4v1697178011401!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "230 m",
+        "railwayStation": "1.8 km",
+        "petrolPump": "550 m",
+        "hospital": "400 m",
+        "airport": "7.9 km",
+        "school": "23 m",
+        "busStop": "280 m",
+        "bank": "23 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 8,
+      "title": "Sakar Real Life",
+      "state": "On Going",
+      "location": "Khandwa Road, Indore",
+      "rera": "Pending",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/02/sakar-real-life-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/02/Thumbnail-DJI_024-02.jpeg?resize=768%2C431&ssl=1",
+      "overview": "Saakar Real Life is a residential township that offers premium quality residential plots and villas. It is located at Khandawa Road, Indore. It is one of the best residential projects launched in this area. It is a sprawling luxury enclave of magnificent plots in Indore, elevating the contemporary lifestyle. These Residential Apartments in Indore offer you the kind of life that rejuvenates you, the one that inspires you to live life to the fullest. Real Life by Saakar Group in Khandwa Road is meticulously designed with unbound convenience & the best of amenities and is an effortless blend of modernity and elegance",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00543.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00548.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00572.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00591.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0640.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00617.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00632.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00640.JPG.jpg?fit=2056%2C1158&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03504.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03509.JPG.jpg?fit=2056%2C1104&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0243.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0632.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0635.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12273.655183887113!2d75.89824800532944!3d22.553217850138687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efc89dddf243%3A0x705ae2eb45dbd75c!2sSakar%20Real%20Life!5e0!3m2!1sen!2sin!4v1697178152824!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "500 m",
+        "railwayStation": "22.1 km",
+        "petrolPump": "9.9 km",
+        "hospital": "13.1 km",
+        "airport": "25.4 km",
+        "school": "14.8 m",
+        "busStop": "8.2 m",
+        "bank": "4.2 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 9,
+      "title": "Saakar City",
+      "state": "Completed",
+      "location": "Jhalaria, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/sakar-city-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Thumbnail-DJI_0676-01.jpeg?resize=850%2C480&ssl=1",
+      "overview": "Immersed in lush oases of greenery, Homes in Saakar City are designed to reinvent city life as we know it. Discover an unparalleled lifestyle with us.With a fully operational clubhouse. Many happy families have already found their dream home in Saakar City. its experience will be a new chance for the people of Indore. For a city that is relatively new to the township concept. Saakar city will be a novel way to live. Among the other agreeable features includes the option of living separately yet within a community & enjoying common leisure facilities, which also brings with it a much larger social circle.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03620.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03654.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0679.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0671.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0681.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.2176253555963!2d75.93316723924599!3d22.763939540233114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631db23b652eb9%3A0x4715190d91549503!2sThe%20Sapphire!5e0!3m2!1sen!2sin!4v1696409775862!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "2.9 km",
+        "railwayStation": "5.4 km",
+        "petrolPump": "1.5 km",
+        "hospital": "1 km",
+        "airport": "11.5 km",
+        "school": "500 m",
+        "busStop": "5.2 m",
+        "bank": "650 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 10,
+      "title": "Saakar Township",
+      "state": "Completed",
+      "location": "Bypass, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/sakar-township-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/ADI03554.JPG.jpg?resize=850%2C480&ssl=1",
+      "overview": "Saakar Township is a modern pollution-free township in Indore with class construction, warm ambiance where happy living begins Located in one of the rewarding most locales of Indore, Saakar Township is promoted by Saakar Group. The entire campus is surrounded by apartments, luxurious villas, and residential plots spread over 21,78,002 sq. ft. of land. The township offers plots ranging from 2700 sqft. to 5000 sqft",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03554.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03574.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03577.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03579.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0650.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0654.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0659.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0663.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0667.jpg?fit=2056%2C1194&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00436.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.967416078949!2d75.92900828009616!3d22.766590472619285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631d5d937d8d17%3A0x28fb781a76eb670f!2sSakar%20township!5e0!3m2!1sen!2sin!4v1697178725527!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "290 km",
+        "railwayStation": "5.4 km",
+        "petrolPump": "1.5 km",
+        "hospital": "1 km",
+        "airport": "11.5 km",
+        "school": "500 m",
+        "busStop": "5.2 km",
+        "bank": "650 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 11,
+      "title": "Saakar Corridor",
+      "state": "On Going",
+      "location": "Super Corridor, Indore",
+      "rera": "P-IND-17-1067",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/DJI_0167-2.jpg",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/Saakar-Corridor.jpg?resize=768%2C377&ssl=1",
+      "overview": "Saakar Corridor blends nature with its state of the art infrastructure and modern amenities. All the residential products are ensconced within beautifully landscaped gardens and wide-open spaces.The super corridor is one of the fastest developing localities of Indore. Known for its recreational amenities, the super corridor is a prime location with various commercial and residential projects. In terms of real estate projects. Located in Super Corridor, Indore, the Saakar Corridor is a thoughtfully planned one, equipped with all amenities for a comfortable living. This skillfully crafted project has Ready To Move units. These Residential Plots in Indore relish a magnificent view and presents a perfect example of comfort and luxury.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/DJI_0167.jpg?fit=%2C&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/DJI_0168.jpg?fit=%2C&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/DJI_0167-2.jpg?fit=%2C&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.828216422992!2d75.80113077509306!3d22.771755525642025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963018979e42163%3A0x557b21ad706ce5ae!2sSakar%20Corridor!5e0!3m2!1sen!2sin!4v1697178787248!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "1.4 km",
+        "railwayStation": "11 km",
+        "petrolPump": "4.7 km",
+        "hospital": "6.3 km",
+        "airport": "7.5 km",
+        "school": "8.8 km",
+        "busStop": "5.3 km",
+        "bank": "3.7 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 12,
+      "title": "Saakar NRI City - 2",
+      "state": "Completed",
+      "location": "Bypass Nipania, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/NRI-2-cover-pic-1.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Saakar-ner-city-2-.jpg?fit=700%2C9999&ssl=1",
+      "overview": "Lavish township which is conveniently close to all necessities like shopping malls, banks, cinemas and mega-markets which make the experience of living at Saakar, complete. it is an ultimate reflection of the urban chic lifestyle located in Indore Bypass Road, Indore. The project hosts in its lap exclusively designed Residential Apartments, each being an epitome of elegance and simplicity.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00445.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00452.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00490.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00518.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00541.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0223.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0224.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0226.jpg?fit=2056%2C1155&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117722.38039169765!2d75.72130386862563!3d22.77189759315031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e30722784ca1%3A0xe8bf4e4421cbf57b!2sSakar%20NRI%20City%20I!5e0!3m2!1sen!2sin!4v1697178865383!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "1.4 km",
+        "railwayStation": "7.2 km",
+        "petrolPump": "4 km",
+        "hospital": "5 km",
+        "airport": "21 km",
+        "school": "3.9 km",
+        "busStop": "6 km",
+        "bank": "3.7 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 13,
+      "title": "Saakar NRI City - 1",
+      "state": "Completed",
+      "location": "Bicholi Mardana, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/NRI-1-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Thumbnail-DJI_0601-01.jpeg?resize=850%2C480&ssl=1",
+      "overview": "Comprehensive townships that offer its customers the luxuries of a spectacular view, convenient location and distinct residences that suit individual needs, budgets and liking. These unmatched Residential properties are located in Bicholi Mardana, Indore. The project offers plenty of benefits that includes prime location, comfortable and lavish lifestyle, great amenities, healthy surroundings, and high return.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Thumbnail-DJI_0601-01.jpeg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0607.jpg?fit=2056%2C1156&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0605.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03500.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03476.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03477.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI03475.JPG.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117722.38039169765!2d75.72130386862563!3d22.77189759315031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e30722784ca1%3A0xe8bf4e4421cbf57b!2sSakar%20NRI%20City%20I!5e0!3m2!1sen!2sin!4v1697178865383!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "1.9 km",
+        "railwayStation": "8.5 km",
+        "petrolPump": "200 m",
+        "hospital": "2.9 km",
+        "airport": "16.7 km",
+        "school": "260 m",
+        "busStop": "5.2 km",
+        "bank": "1.9 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 14,
+      "title": "Saakar Nest",
+      "state": "Completed",
+      "location": "Race Course Road, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/sakar-nest-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Thumbnail-DJI_0126.jpg?resize=768%2C431&ssl=1",
+      "overview": "Immersed in lush oases of greenery, apartments in Saakar Nest are designed to reinvent city life as we know it. Discover an unmatched connectivity to the town while returning home to peace. Saakar realty is done and dusted with a new project, nestled comfortably at one of the most desirable places of Indore- Race Course Road, providing facilities that perfectly match your style and status. This project aims to offer you your dream home at affordable rates with assured quality, on-Time delivery, top-Notch construction, and branded fixtures, making your dream home a perfect getaway after a hectic day.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/44.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00136.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_011.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0118.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0120.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0130.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0122.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0128.jpg?fit=2056%2C1156&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.05911985058!2d75.8718096800881!3d22.72604387418982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdc29b1ca73f%3A0x4e403047d199bfcb!2sSakar%20nest!5e0!3m2!1sen!2sin!4v1697178939824!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "280 m",
+        "railwayStation": "2 km",
+        "petrolPump": "650 m",
+        "hospital": "600 m",
+        "airport": "8.8 km",
+        "school": "400 m",
+        "busStop": "2 km",
+        "bank": "190 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 15,
+      "title": "Saakar Residency",
+      "state": "Completed",
+      "location": "A.B. Road, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/sakar-residency-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Thumbnail-DJI_0149-01.jpeg?resize=768%2C431&ssl=1",
+      "overview": "With thoughtfully chosen amenities, grand design aesthetics, beautifully carved out landscapes, and acres of open spaces, Saakar Residency offers a global lifestyle where residents can mingle with a discerning community and soak in the finest luxury. Located at AB Road, Indore, Saakar Residency is inspiring in design, stirring in luxury, and enveloped by verdant surroundings. Our goal is to deliver developments that are finely crafted, and where the quality of finish shines through in every development, from inception to completion. Saakar Residency is an ultimate reflection of the urban chic lifestyle brought to us by Saakar Realty Group.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_015.jpg?fit=2056%2C1357&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0152.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0155.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0156.jpg?fit=2056%2C1107&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00157.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00151.JPG.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.598094032906!2d75.88902437509233!3d22.74317502669734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd51259c24cd%3A0xe18a27cde63dcf5a!2sSakar%20Residency!5e0!3m2!1sen!2sin!4v1697179034648!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "400 m",
+        "railwayStation": "4.5 km",
+        "petrolPump": "400 m",
+        "hospital": "80 m",
+        "airport": "4.6 km",
+        "school": "180 m",
+        "busStop": "900 m",
+        "bank": "300 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 16,
+      "title": "Saakar Terrace",
+      "state": "Completed",
+      "location": "New Palasia, Indore",
+      "rera": "Not applicable",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/sakar-terrace-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/THUMBNAIL-ADI00150.JPG-01.jpeg?resize=850%2C480&ssl=1",
+      "overview": "Smart location, sophisticated amenities, and serene ambiance make life at Saakar Terraces worth living. Live in the city while being in the green. The project hosts in its lap exclusively cut plots, each being an epitome of elegance and simplicity. Saakar terraces comprise every modern amenity required for luxury living namely Gated Community.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00140.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00144.jpg?fit=2056%2C1160&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00150.jpg?fit=2056%2C1178&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0143.jpg?fit=2056%2C1152&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/DJI_0148.jpg?fit=2056%2C1449&ssl=1"
+
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.014139493318!2d75.88141707509189!3d22.727715827267644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd473186aaab%3A0xfce8626878e7108b!2sSakar%20Terraces!5e0!3m2!1sen!2sin!4v1697179075574!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "180 m",
+        "railwayStation": "2.8 km",
+        "petrolPump": "650 m",
+        "hospital": "89 m",
+        "airport": "9.8 km",
+        "school": "120 m",
+        "busStop": "350 m",
+        "bank": "350 m"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 17,
+      "title": "Saakar Hills & Resorts",
+      "state": "On Going",
+      "location": "Ujjain Road, Indore",
+      "rera": "P-DPL-17-1469",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2019/10/sakar-terrace-cover-pic.webp",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/Thumbnail-ADI00416.JPG-01.jpeg?resize=850%2C480&ssl=1",
+      "overview": "Saakar Hills Resort is strategically designed and well-ventilated. The project has a huge open space, which means you get plenty of space both inside as well as outside the house. Saakar Hills is constructed in the area of Jaitpura which is a residential area close to both Ujjain and Indore city. Indore-Ujjain Road is connecting this place with Lala Kheda, Gawala, Lakshman Khedi, Mukada, and Kayak Khedi along with the other locations of Madhya Pradesh. It is reachable via train, the bus as well as air from the other parts of India. The Ujjain Junction Railway Station, Indore Junction Railway Station, and Devi Ahilya Bai Holkar International Airport are available within 20kms of distance. Apart from that the availability of schools, colleges, ATMs, banks, and hospitals are there within 5km. The project offers meticulously designed Residential Plots near Ujjain Road, Indore for comfortable & peaceful living.",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/09/Thumbnail-ADI00416.JPG-01.webp?fit=1400%2C700&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/DJI_0214-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/DJI_0213-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/DJI_0210-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/DJI_0208-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/DJI_0207-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2023/04/DJI_0211-scaled.jpg?fit=2560%2C1440&ssl=1"
+
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444430.76635952573!2d75.71943692376522!3d22.930713932584705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963053c95d2f937%3A0x6b7b8eb3622dd2e9!2sSakar%20Hills%20%26%20Resorts!5e0!3m2!1sen!2sin!4v1697179125757!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "500 m",
+        "railwayStation": "12.9 km",
+        "petrolPump": "2.6 km",
+        "hospital": "8.3 km",
+        "airport": "20.5 km",
+        "school": "1.2 km",
+        "busStop": "8.2 km",
+        "bank": "2.6 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    },
+    {
+      "id": 18,
+      "title": "Saakar Corridor Prime",
+      "state": "On Going",
+      "location": "Super Corridor, Indore",
+      "rera": "P-IND-22-3123",
+      "landingImage": "https://thesolitairerealty.com/wp-content/uploads/2022/08/Thumbnail-DJI_0180.jpg",
+      "thumbnailImage": "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2019/10/saakar-corridor-prime-.jpg?fit=700%2C9999&ssl=1",
+      "overview": "Saakar Corridor Prime combines nature with cutting-edge infrastructure and contemporary services. All of the residential products are situated amidst exquisitely designed gardens and spacious open areas. One of Indore's areas that is developing the fastest is the super corridor. The super corridor, a premium site with numerous commercial and residential complexes, is well known for its recreational attractions. in terms of building initiatives. The Saakar Corridor in Indore's Super Corridor was carefully designed and contains all the amenities needed for a comfortable lifestyle. The units in this expertly constructed complex are Ready To Move. These Residential Plots in Indore are the epitome of comfort and luxury, and they enjoy a spectacular view",
+      "galleryImages": [
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00278.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00285.JPG.jpg?fit=2056%2C1158&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/Thumbnail-DJI_0180.jpg?fit=2056%2C1155&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00232.JPG.jpg?fit=2056%2C1157&ssl=1",
+        "https://i0.wp.com/thesolitairerealty.com/wp-content/uploads/2022/08/ADI00269.JPG.jpg?fit=2056%2C1157&ssl=1"
+      ],
+      "videoLink": "https://www.youtube.com/embed/AocSwEiz2PQ?autoplay=1&mute=1",
+      "mapCoordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.2176253555963!2d75.93316723924599!3d22.763939540233114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631db23b652eb9%3A0x4715190d91549503!2sThe%20Sapphire!5e0!3m2!1sen!2sin!4v1696409775862!5m2!1sen!2sin",
+      "transport": {
+        "supermarket": "500 m",
+        "railwayStation": "12.9 km",
+        "petrolPump": "2.6 km",
+        "hospital": "8.3 km",
+        "airport": "20.5 km",
+        "school": "1.2 km",
+        "busStop": "8.2 km",
+        "bank": "2.6 km"
+      },
+      "amenities": ["Swimming Pool", "Fitness Center", "Park", "Playground"]
+    }
+  ]
+}

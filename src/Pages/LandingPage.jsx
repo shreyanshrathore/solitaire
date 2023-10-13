@@ -11,7 +11,7 @@ import OurCustomer from '../components/1]firstPage/OurCustomer'
 import WantMore from '../components/1]firstPage/WantMore'
 import Footer from '../components/1]firstPage/Footer'
 
-const LandingPage = () => {
+const LandingPage = ({setInfo}) => {
   return (
     <div className='pt-28'>
         {/* <Nav/> */}
@@ -20,7 +20,7 @@ const LandingPage = () => {
         <ThreeCards/>
         <Credai/>
         <OurOfferings/>
-        <FeaturedProject/>
+        <FeaturedProject setInfo = {setInfo}/>
         <OurBiggest/>
         <OurCustomer/>
         <WantMore/>
