@@ -11,6 +11,7 @@ import OurCustomer from '../components/1]firstPage/OurCustomer'
 import WantMore from '../components/1]firstPage/WantMore'
 import Footer from '../components/1]firstPage/Footer'
 
+
 const LandingPage = ({setInfo}) => {
   return (
     <div className='pt-28'>

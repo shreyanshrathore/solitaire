@@ -8,6 +8,8 @@ import ContactPage from "./Pages/ContactPage";
 import Footer from "./components/1]firstPage/Footer";
 import Careers from "./Pages/CareersPage";
 import Aboutus from "./Pages/Aboutus";
+import { AnimatePresence } from "framer-motion";
+
 
 const App = () => {
   const [info, setInfo] = useState(null)
@@ -15,7 +17,7 @@ const App = () => {
     <div className="bg-white">
       <BrowserRouter>
       <Nav/>
-        <Routes>
+        <Routes>  
           <Route path="/" element={<LandingPage setInfo = {setInfo}/>}></Route>
           <Route path="/allprojects" element={<AllProjects setInfo = {setInfo}/>}></Route>
           <Route path="/project" element={<ProjectPage info = {info}/>}></Route>

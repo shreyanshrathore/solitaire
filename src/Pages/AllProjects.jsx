@@ -7,6 +7,7 @@ import Footer from '../components/1]firstPage/Footer'
 import bg from "../assets/AllProjects/allprojectsbg.png";
 import LandingCard from '../components/Project/LandingCard'
 
+
 import projects from '../components/AllProjects/allproject.json'
 
 const item = {

@@ -12,6 +12,8 @@ import WantMore from "../components/1]firstPage/WantMore";
 import Footer from "../components/1]firstPage/Footer";
 import projects from '../components/AllProjects/allproject.json'
 
+
+
 const ProjectPage = ({info}) => {
   info = projects.projects[info-1];
   projects && console.log(projects.projects[0])
