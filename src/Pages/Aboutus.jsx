@@ -4,7 +4,8 @@ import OurMission from "../components/1]firstPage/OurMission";
 import OurOfferings from "../components/1]firstPage/OurOfferings";
 
 
-const Aboutus = () => {
+const Aboutus = () => { 
+  const helo = "hello"
   return (
     <div className="pt-28">
       <About />
